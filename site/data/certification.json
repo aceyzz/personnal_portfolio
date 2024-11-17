@@ -1,0 +1,69 @@
+{
+	"certifications": [
+		{
+			"id": 1,
+			"title": "Azure Cloud Fundamentals",
+			"provider": "Microsoft",
+			"date": "Août 2024",
+			"description": "Cette certification m'a permis de développer une compréhension approfondie des bases du cloud computing, y compris les services et solutions proposés par Microsoft Azure. J'ai acquis des compétences essentielles pour concevoir et gérer des solutions cloud, tout en renforçant mes connaissances sur les principes fondamentaux de la sécurité et de la conformité.",
+			"skills": [
+				"Cloud Computing",
+				"Microsoft Azure",
+				"Infrastructure en tant que service (IaaS)",
+				"Plateforme en tant que service (PaaS)",
+				"Modèles de déploiement cloud",
+				"Sécurité cloud",
+				"Ressources Azure",
+				"Gestion des coûts cloud",
+				"Concepts de virtualisation"
+			],
+			"logo": "/assets/azure_logo.png"
+		},
+		{
+			"id": 2,
+			"title": "Azure Data Fundamentals",
+			"provider": "Microsoft",
+			"date": "Août 2024",
+			"description": "Grâce à cette certification, j'ai acquis des compétences dans la gestion et l'analyse des données avec Microsoft Azure. J'ai appris à travailler avec des bases de données relationnelles et non relationnelles, à manipuler des données volumineuses, et à comprendre les fondamentaux des services d'analyse de données pour optimiser la prise de décision.",
+			"skills": [
+				"Analyse de données",
+				"Microsoft Azure",
+				"SQL",
+				"Big Data",
+				"Bases de données relationnelles",
+				"Bases de données NoSQL",
+				"Azure Data Lake",
+				"Azure Synapse Analytics",
+				"ETL (Extract, Transform, Load)",
+				"Data Visualization"
+			],
+			"logo": "/assets/azure_logo.png"
+		},
+		{
+			"id": 3,
+			"title": "Architecte en technologies numériques",
+			"provider": "42 Lausanne",
+			"date": "Octobre 2024",
+			"description": "Ce diplôme m'a permis de développer une expertise approfondie en conception et développement de solutions numériques. J'ai renforcé mes compétences en gestion de projet, architecture logicielle, et résolution de problèmes complexes, tout en collaborant dans des environnements agiles pour livrer des solutions innovantes et efficaces.",
+			"skills": [
+				"Architecture logicielle",
+				"Gestion de projet",
+				"C",
+				"C++",
+				"Python",
+				"Linux",
+				"Git",
+				"Docker",
+				"Kubernetes",
+				"DevOps",
+				"Design Patterns",
+				"Agilité",
+				"Conception de solutions logicielles",
+				"Collaboration en équipe",
+				"Réseau",
+				"Cybersécurité"
+			],
+			"logo": "/assets/42_logo.png"
+		}
+	]
+}

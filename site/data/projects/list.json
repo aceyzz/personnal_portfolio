@@ -1,0 +1,213 @@
+{
+	"categories": [
+		{
+			"name": "42 - Piscine",
+			"projects": [
+				{
+					"title": "Modules Shell",
+					"description": "Initiation aux scripts shell et gestion des commandes Unix.",
+					"detail": "Ce projet explore les bases du scripting shell, les commandes essentielles d'Unix, et leur usage dans un environnement Linux. L'objectif est d'apprendre à automatiser des tâches courantes.",
+					"technologies": ["Shell scripting", "Unix"],
+					"date": "Septembre 2023",
+					"repo": "https://github.com/aceyzz/42-Piscine/tree/main/shell_modules",
+					"logo": "/assets/projects/modules_shell.webp"
+				},
+				{
+					"title": "Modules C",
+					"description": "Premières bases du langage C, logique et algorithmes simples.",
+					"detail": "Apprentissage des bases du langage C, incluant les structures de données, les boucles, et les fonctions. Les projets mettent également l'accent sur la logique algorithmique et les outils de compilation.",
+					"technologies": ["C"],
+					"date": "Septembre 2023",
+					"repo": "https://github.com/aceyzz/42-Piscine/tree/main/c_modules",
+					"logo": "/assets/projects/modules_c.webp"
+				},
+				{
+					"title": "Rushes",
+					"description": "Défis intensifs en équipe pour résoudre des problèmes complexes.",
+					"detail": "Travail collaboratif sur des défis complexes avec des deadlines courtes, visant à améliorer les compétences en résolution de problèmes et la communication en équipe.",
+					"technologies": ["C", "Travail collaboratif"],
+					"date": "Septembre 2023",
+					"repo": "https://github.com/aceyzz/42-Piscine/tree/main/rushes",
+					"logo": "/assets/projects/rushes.webp"
+				}
+			]
+		},
+		{
+			"name": "42 - Common Core",
+			"projects": [
+				{
+					"title": "Libft",
+					"description": "Recréer les principales fonctions de la bibliothèque standard C.",
+					"detail": "Développement d'une bibliothèque personnelle en recréant plusieurs fonctions essentielles de la bibliothèque standard C, avec un focus sur les bonnes pratiques et la gestion efficace de la mémoire.",
+					"technologies": ["C", "Makefile"],
+					"date": "2023",
+					"repo": "https://github.com/aceyzz/Libft",
+					"logo": "https://github.com/aceyzz/Libft/blob/main/utils/libft_banner.png?raw=true"
+				},
+				{
+					"title": "Get Next Line",
+					"description": "Lire une ligne d'un fichier de manière optimisée.",
+					"detail": "Création d'une fonction capable de lire ligne par ligne depuis un fichier ou une entrée standard, en utilisant des buffers pour optimiser les performances.",
+					"technologies": ["C"],
+					"date": "2023",
+					"repo": "https://github.com/aceyzz/Get_next_line",
+					"logo": "https://github.com/aceyzz/Get_next_line/raw/main/utils/gnl_banner.png"
+				},
+				{
+					"title": "Ft_printf",
+					"description": "Reproduire la fonction printf de la bibliothèque standard C.",
+					"detail": "Développement d'une version personnalisée de la fonction printf, supportant plusieurs formats et spécifications, tout en gérant efficacement la mémoire.",
+					"technologies": ["C"],
+					"date": "2023",
+					"repo": "https://github.com/aceyzz/Ft_printf",
+					"logo": "https://github.com/aceyzz/Ft_printf/raw/main/utils/printf_banner.png"
+				},
+				{
+					"title": "Born2BeRoot",
+					"description": "Configurer une machine virtuelle sécurisée.",
+					"detail": "Installation et configuration d'une machine virtuelle sécurisée basée sur Debian. Apprentissage des concepts de virtualisation, de gestion des permissions, et des standards de sécurité système.",
+					"technologies": ["Linux", "VirtualBox", "Debian"],
+					"date": "2023",
+					"repo": "https://github.com/aceyzz/Born2beRoot",
+					"logo": "https://github.com/aceyzz/Born2beRoot/raw/main/utils/b2r_banner.png"
+				},
+				{
+					"title": "Push_Swap",
+					"description": "Implémenter un algorithme de tri avec un nombre limité d'opérations.",
+					"detail": "Conception et implémentation d'un algorithme de tri optimisé, avec des restrictions sur le type et le nombre d'opérations autorisées.",
+					"technologies": ["C"],
+					"date": "2023",
+					"repo": "https://github.com/aceyzz/Push_swap",
+					"logo": "https://github.com/aceyzz/Push_swap/raw/main/utils/ps_banner.png"
+				},
+				{
+					"title": "Minitalk",
+					"description": "Création d'une application client-serveur pour échanger des messages via signaux Unix.",
+					"detail": "Développement d'un système de communication client-serveur simple utilisant les signaux Unix comme moyen de transmission.",
+					"technologies": ["C", "Unix"],
+					"date": "2023",
+					"repo": "https://github.com/aceyzz/Minitalk",
+					"logo": "https://github.com/aceyzz/Minitalk/raw/main/utils_git/minitalk_banner.png"
+				},
+				{
+					"title": "So_Long",
+					"description": "Développement d'un jeu 2D en C basé sur une bibliothèque graphique.",
+					"detail": "Création d'un jeu 2D interactif utilisant une bibliothèque graphique. Le projet inclut la gestion des événements, des animations, et des interactions avec l'environnement.",
+					"technologies": ["C", "Graphics"],
+					"date": "2023",
+					"repo": "https://github.com/aceyzz/So_long",
+					"logo": "https://github.com/aceyzz/So_long/raw/main/git_utils/sl_banner.png"
+				},
+				{
+					"title": "Philosophers",
+					"description": "Simulation d'un problème classique d'algorithme en multithreading.",
+					"detail": "Implémentation du problème des philosophes, explorant les concepts de multithreading et de gestion des ressources concurrentes.",
+					"technologies": ["C", "Multithreading"],
+					"date": "2023",
+					"repo": "https://github.com/aceyzz/Philosophers",
+					"logo": "/assets/projects/philo_banner.png"
+				},
+				{
+					"title": "Minishell",
+					"description": "Création d'un shell minimaliste inspiré de Bash.",
+					"detail": "Développement d'un interpréteur de commandes minimaliste capable de gérer les processus et les redirections.",
+					"technologies": ["C"],
+					"date": "2024",
+					"repo": "https://github.com/aceyzz/Minishell",
+					"logo": "https://github.com/aceyzz/Minishell/raw/master/git_utils/minishell_banner.png"
+				},
+				{
+					"title": "Cub3D",
+					"description": "Développement d'un moteur de rendu graphique en 3D isométrique.",
+					"detail": "Création d'un moteur graphique simple en 3D avec des techniques de rendu isométriques.",
+					"technologies": ["C", "Graphics"],
+					"date": "2024",
+					"repo": "https://github.com/aceyzz/cub3d",
+					"logo": "https://github.com/aceyzz/Cub3d/raw/main/git_utils/banner.webp"
+				},
+				{
+					"title": "NetPractice",
+					"description": "Apprentissage des concepts fondamentaux du réseau.",
+					"detail": "Exercices pratiques pour comprendre les concepts fondamentaux des réseaux, tels que les protocoles, le routage et la configuration.",
+					"technologies": ["Networking"],
+					"date": "2024",
+					"repo": "https://github.com/aceyzz/NetPractice",
+					"logo": "https://github.com/aceyzz/NetPractice/raw/main/git_utils/netpractice.webp"
+				},
+				{
+					"title": "Piscine CPP-1",
+					"description": "Introduction à la programmation orientée objet en C++.",
+					"detail": "Découverte des bases de la programmation orientée objet avec le langage C++. Focus sur les classes, les objets, et la modularité.",
+					"technologies": ["C++"],
+					"date": "2024",
+					"repo": "https://github.com/aceyzz/CPP-Part.1",
+					"logo": "https://github.com/aceyzz/CPP-Part.1/raw/main/git_utils/banner.webp"
+				},
+				{
+					"title": "Piscine CPP-2",
+					"description": "Approfondissement des concepts avancés de C++.",
+					"detail": "Exploration des fonctionnalités avancées de C++ telles que les templates, les exceptions et les designs patterns.",
+					"technologies": ["C++"],
+					"date": "2024",
+					"repo": "https://github.com/aceyzz/CPP-Part.2",
+					"logo": "https://github.com/aceyzz/CPP-Part.2/raw/main/utils/banner.webp"
+				},
+				{
+					"title": "Inception",
+					"description": "Déploiement de conteneurs pour une infrastructure web.",
+					"detail": "Utilisation de Docker pour créer une infrastructure web complète incluant Nginx, MariaDB, et Wordpress.",
+					"technologies": ["Docker", "Wordpress", "MariaDB", "PhpMyAdmin", "Nginx"],
+					"date": "2024",
+					"repo": "https://github.com/aceyzz/Inception",
+					"logo": "https://github.com/aceyzz/Inception/raw/main/utils/logo.webp"
+				},
+				{
+					"title": "Webserv",
+					"description": "Création d'un serveur web respectant le protocole HTTP.",
+					"detail": "Développement d'un serveur web respectant les standards HTTP/1.1, avec implémentation de CGI et gestion SSL.",
+					"technologies": ["C++", "Networking", "HTTP", "CGI", "PHP", "SSL"],
+					"date": "2024",
+					"repo": "https://github.com/aceyzz/webserv",
+					"logo": "https://github.com/aceyzz/webserv/raw/main/git_utils/logo.webp"
+				},
+				{
+					"title": "Ft_Transcendence",
+					"description": "Développement d'une application web complète d'un jeu en ligne multijoueur.",
+					"detail": "Création d'une plateforme web pour un jeu multijoueur en temps réel, incluant API REST et WebSocket.",
+					"technologies": ["HTML", "CSS", "JavaScript", "Django", "WebSocket", "PostgreSQL", "Docker", "Modsecurity", "Nginx"],
+					"date": "2024",
+					"repo": "https://github.com/aceyzz/ft_transcendence",
+					"logo": "https://github.com/aceyzz/ft_transcendence/raw/main/_git_utils/logo.webp"
+				}
+			]
+		},
+		{
+			"name": "42 - Spécialisations",
+			"projects": [
+				{
+					"title": "Cloud-1",
+					"description": "Automatisation de création et gestion d'une infrastructure cloud.",
+					"detail": "Création d'une infrastructure web automatisée et sécurisée en utilisant Docker et Ansible.",
+					"technologies": ["Docker", "Ansible", "Cloud", "Wordpress", "MySQL", "Nginx", "PhpMyAdmin"],
+					"date": "2024",
+					"repo": "https://github.com/aceyzz/cloud-1",
+					"logo": "https://github.com/aceyzz/cloud-1/raw/main/git_utils/cloud1_banner.webp"
+				}
+			]
+		},
+		{
+			"name": "Projets Personnels",
+			"projects": [
+				{
+					"title": "Portfolio",
+					"description": "Création d'un portfolio interactif pour présenter mes réalisations.",
+					"detail": "Développement d'un site web interactif pour présenter mes projets professionnels et personnels.",
+					"technologies": ["HTML", "CSS", "JavaScript"],
+					"date": "En cours",
+					"repo": "https://github.com/aceyzz/portfolio",
+					"logo": "https://img.icons8.com/?size=100&id=q3fTaQ6ZRN7X&format=png&color=22C3E6"
+				}
+			]
+		}
+	]
+}
