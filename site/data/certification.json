@@ -2,10 +2,33 @@
 	"certifications": [
 		{
 			"id": 1,
+			"title": "Azure Security, Compliance, and Identity Fundamentals",
+			"company": "Microsoft",
+			"date": "Décembre 2024",
+			"description": "Cette certification m'a permis de développer une compréhension approfondie des concepts fondamentaux de la sécurité, de la conformité et de la gestion des identités dans un environnement cloud. J'ai acquis des compétences essentielles pour mettre en œuvre des stratégies de sécurité basées sur les principes Zero Trust, renforcer la protection des données et des ressources, et assurer la conformité réglementaire. Cette certification m'a préparé à utiliser les outils et services Microsoft Azure pour sécuriser les infrastructures cloud, gérer les identités et les accès, et surveiller les menaces et les vulnérabilités potentielles.",
+			"skills": [
+				"Microsoft Azure",
+				"Sécurité dans le cloud",
+				"Conformité réglementaire",
+				"Principes Zero Trust",
+				"Gestion des identités et des accès",
+				"Stratégies de gouvernance cloud",
+				"Protection des données",
+				"Gestion des menaces et des vulnérabilités",
+				"Surveillance des ressources cloud",
+				"Confidentialité et intégrité des données",
+				"Chiffrement et gestion des clés",
+				"Evaluation des risques",
+				"Gestion des rôles et autorisations"
+			],
+			"logo": "/assets/azure_logo.png"
+		},
+		{
+			"id": 2,
 			"title": "Azure Cloud Fundamentals",
-			"provider": "Microsoft",
+			"company": "Microsoft",
 			"date": "Août 2024",
-			"description": "Cette certification m'a permis de développer une compréhension approfondie des bases du cloud computing, y compris les services et solutions proposés par Microsoft Azure. J'ai acquis des compétences essentielles pour concevoir et gérer des solutions cloud, tout en renforçant mes connaissances sur les principes fondamentaux de la sécurité et de la conformité.",
+			"description": "Cette certification m'a permis de développer une compréhension approfondie des bases du cloud computing, y compris les services et solutions proposés par Microsoft Azure. J'ai acquis des compétences essentielles pour concevoir, déployer et gérer des solutions cloud. J'ai également renforcé mes connaissances sur les principes fondamentaux de la sécurité, de la conformité, et de la gestion des coûts dans un environnement cloud. Cette certification m'a préparé à utiliser les outils et services Azure pour optimiser les opérations et améliorer l'efficacité des infrastructures cloud.",
 			"skills": [
 				"Cloud Computing",
 				"Microsoft Azure",
@@ -15,16 +38,20 @@
 				"Sécurité cloud",
 				"Ressources Azure",
 				"Gestion des coûts cloud",
-				"Concepts de virtualisation"
+				"Concepts de virtualisation",
+				"Optimisation des opérations cloud",
+				"Conformité et réglementation cloud",
+				"Gestion des identités et des accès",
+				"Surveillance et gestion des performances"
 			],
 			"logo": "/assets/azure_logo.png"
 		},
 		{
-			"id": 2,
+			"id": 3,
 			"title": "Azure Data Fundamentals",
-			"provider": "Microsoft",
+			"company": "Microsoft",
 			"date": "Août 2024",
-			"description": "Grâce à cette certification, j'ai acquis des compétences dans la gestion et l'analyse des données avec Microsoft Azure. J'ai appris à travailler avec des bases de données relationnelles et non relationnelles, à manipuler des données volumineuses, et à comprendre les fondamentaux des services d'analyse de données pour optimiser la prise de décision.",
+			"description": "Grâce à cette certification, j'ai acquis des compétences approfondies dans la gestion et l'analyse des données avec Microsoft Azure. J'ai appris à travailler avec des bases de données relationnelles et non relationnelles, à manipuler des données volumineuses, et à comprendre les fondamentaux des services d'analyse de données pour optimiser la prise de décision. Cette certification m'a permis de maîtriser les outils et services Azure pour la gestion des données, y compris Azure Data Lake et Azure Synapse Analytics. J'ai également développé des compétences en ETL (Extract, Transform, Load) pour transformer et intégrer des données provenant de diverses sources. En outre, j'ai appris à visualiser les données de manière efficace pour faciliter l'interprétation et la communication des résultats d'analyse.",
 			"skills": [
 				"Analyse de données",
 				"Microsoft Azure",
@@ -35,16 +62,19 @@
 				"Azure Data Lake",
 				"Azure Synapse Analytics",
 				"ETL (Extract, Transform, Load)",
-				"Data Visualization"
+				"Data Visualization",
+				"Gestion des données",
+				"Intégration des données",
+				"Optimisation de la prise de décision"
 			],
 			"logo": "/assets/azure_logo.png"
 		},
 		{
-			"id": 3,
+			"id": 4,
 			"title": "Architecte en technologies numériques",
-			"provider": "42 Lausanne",
+			"company": "42 Lausanne",
 			"date": "Octobre 2024",
-			"description": "Ce diplôme m'a permis de développer une expertise approfondie en conception et développement de solutions numériques. J'ai renforcé mes compétences en gestion de projet, architecture logicielle, et résolution de problèmes complexes, tout en collaborant dans des environnements agiles pour livrer des solutions innovantes et efficaces.",
+			"description": "Ce diplôme m'a permis de développer une expertise approfondie en conception et développement de solutions numériques. J'ai renforcé mes compétences en gestion de projet, architecture logicielle, et résolution de problèmes complexes, tout en collaborant dans des environnements agiles pour livrer des solutions innovantes et efficaces. J'ai également acquis une expérience pratique en utilisant diverses technologies et outils modernes pour concevoir, déployer et maintenir des systèmes logiciels robustes et évolutifs. Ce programme m'a préparé à relever les défis technologiques actuels et à innover dans le domaine des technologies numériques.",
 			"skills": [
 				"Architecture logicielle",
 				"Gestion de projet",
@@ -61,7 +91,11 @@
 				"Conception de solutions logicielles",
 				"Collaboration en équipe",
 				"Réseau",
-				"Cybersécurité"
+				"Cybersécurité",
+				"Développement Full Stack",
+				"Automatisation des processus",
+				"Tests et assurance qualité",
+				"Intégration continue et déploiement continu (CI/CD)"
 			],
 			"logo": "/assets/42_logo.png"
 		}

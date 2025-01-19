@@ -35,13 +35,13 @@ Bienvenue sur le repository de mon **Portfolio**, un projet de site web personne
 Voici un aperçu de l'organisation des fichiers :
 
 ```
-index.html              # Fichier principal du site
-/assets                 # Ressources statiques
-  ├── projects          # Icônes utilisées pour les projets
+index.html                         # Fichier principal du site
+staticwebapp.config.json           # Configuration Azure Static Web Apps
+/assets                            # Ressources statiques (images, icônes, etc.)
 /css
-  ├── styles.css        # Feuille de style principale
+  ├── styles.css                   # Feuille de style principale
 /js
-  ├── main.js           # Gestion du routage et des interactions
+  ├── main.js                      # Gestion du routage et des interactions
   ├── services/
       ├── experienceService.js     # Gestion des expériences
       ├── projectService.js        # Gestion des projets
@@ -50,31 +50,33 @@ index.html              # Fichier principal du site
       ├── partialService.js        # Gestion des chargements de pages
       ├── routerService.js         # Gestion du routage
 /partials
-  ├── home.html         # Page d'accueil
-  ├── projects.html     # Page des projets
-  ├── experience.html   # Page des expériences
-  ├── contact.html      # Page de contact
+  ├── home.html                    # Page d'accueil
+  ├── projects.html                # Page des projets
+  ├── experience.html              # Page des expériences
+  ├── contact.html                 # Page de contact
 /data
-  ├── projects/list.json    # Données des projets
-  ├── experience.json       # Données des expériences
-  ├── certification.json    # Données des certifications
+  ├── projects/list.json           # Données des projets
+  ├── experience.json              # Données des expériences
+  ├── certification.json           # Données des certifications
 ```
 
 <br>
 
 ## 📸 Aperçu
-
-### Accueil
-<img src="git_utils/1.png" alt="Accueil" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
-
-### Projets
-<img src="git_utils/2.png" alt="Projets" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
-
-### Expériences
-<img src="git_utils/3.png" alt="Expériences" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
-
-### Contact
-<img src="git_utils/4.png" alt="Contact" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; text-align: center;">
+	<div>
+		<img src="git_utils/1.png" alt="Accueil" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
+	</div>
+	<div>
+		<img src="git_utils/2.png" alt="Projets" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
+	</div>
+	<div>
+		<img src="git_utils/3.png" alt="Expériences" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
+	</div>
+	<div>
+		<img src="git_utils/4.png" alt="Contact" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
+	</div>
+</div>
 
 <br>
 
