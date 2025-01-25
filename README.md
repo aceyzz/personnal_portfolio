@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://cmuller.fr" target="_blank" style="text-decoration:none;">
-    <img src="https://img.shields.io/badge/Visiter%20le%20Site-Cmuller.fr-1AA3CC?style=for-the-badge" alt="Visiter Aceyz.ch">
+    <img src="https://img.shields.io/badge/Visiter%20le%20Site-Cmuller.ch-1AA3CC?style=for-the-badge" alt="Visiter cmuller.ch">
   </a>
 </p>
 
