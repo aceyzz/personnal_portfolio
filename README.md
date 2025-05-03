@@ -91,20 +91,11 @@ Voici un aperçu de l'organisation des fichiers :
 <br>
 
 ## 📸 Aperçu
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; text-align: center;">
-	<div>
-		<img src="git_utils/1.png" alt="Accueil" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
-	</div>
-	<div>
-		<img src="git_utils/2.png" alt="Projets" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
-	</div>
-	<div>
-		<img src="git_utils/3.png" alt="Expériences" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
-	</div>
-	<div>
-		<img src="git_utils/4.png" alt="Contact" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
-	</div>
-</div>
+
+| ![Accueil](git_utils/1.png) | ![Projets](git_utils/2.png) |
+|----------------------------|-----------------------------|
+| ![Expériences](git_utils/3.png) | ![Contact](git_utils/4.png) |
+
 
 <br>
 
