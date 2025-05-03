@@ -1,0 +1,14 @@
+{
+	"title": "Cédric Muller",
+	"subtitle": "Ingénieur IT junior · Certifié Microsoft Azure · Passionné de Technologie",
+	"description": [
+		"Plongé dans l'univers dynamique de la technologie, je suis un passionné de l'innovation et de l'apprentissage continu.",
+		"Diplômé de l'école 42 Lausanne en octobre 2024 et certifié Microsoft Azure en Cloud, Data et Sécurité en août 2024.",
+		"Actuellement ingénieur IT junior, je me concentre sur la résilience et l'amélioration constante.",
+		"Explorez mes projets et contactez-moi pour collaborer sur des idées novatrices !"
+	],
+	"buttons": {
+		"projects": "Voir mes projets",
+		"contact": "Me contacter"
+	}
+}

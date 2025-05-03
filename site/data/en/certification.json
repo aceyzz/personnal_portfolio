@@ -1,0 +1,103 @@
+{
+	"certifications": [
+		{
+			"id": 1,
+			"title": "Azure Security, Compliance, and Identity Fundamentals",
+			"company": "Microsoft",
+			"date": "December 2024",
+			"description": "This certification allowed me to develop a deep understanding of the fundamental concepts of security, compliance, and identity management in a cloud environment. I acquired essential skills to implement security strategies based on Zero Trust principles, enhance data and resource protection, and ensure regulatory compliance. This certification prepared me to use Microsoft Azure tools and services to secure cloud infrastructures, manage identities and access, and monitor potential threats and vulnerabilities.",
+			"skills": [
+				"Microsoft Azure",
+				"Cloud Security",
+				"Regulatory Compliance",
+				"Zero Trust Principles",
+				"Identity and Access Management",
+				"Cloud Governance Strategies",
+				"Data Protection",
+				"Threat and Vulnerability Management",
+				"Cloud Resource Monitoring",
+				"Data Privacy and Integrity",
+				"Encryption and Key Management",
+				"Risk Assessment",
+				"Role and Permission Management"
+			],
+			"logo": "/assets/azure_logo.png"
+		},
+		{
+			"id": 2,
+			"title": "Azure Cloud Fundamentals",
+			"company": "Microsoft",
+			"date": "August 2024",
+			"description": "This certification allowed me to develop a deep understanding of the basics of cloud computing, including the services and solutions offered by Microsoft Azure. I acquired essential skills to design, deploy, and manage cloud solutions. I also strengthened my knowledge of the fundamental principles of security, compliance, and cost management in a cloud environment. This certification prepared me to use Azure tools and services to optimize operations and improve the efficiency of cloud infrastructures.",
+			"skills": [
+				"Cloud Computing",
+				"Microsoft Azure",
+				"Infrastructure as a Service (IaaS)",
+				"Platform as a Service (PaaS)",
+				"Cloud Deployment Models",
+				"Cloud Security",
+				"Azure Resources",
+				"Cloud Cost Management",
+				"Virtualization Concepts",
+				"Cloud Operations Optimization",
+				"Cloud Compliance and Regulation",
+				"Identity and Access Management",
+				"Performance Monitoring and Management"
+			],
+			"logo": "/assets/azure_logo.png"
+		},
+		{
+			"id": 3,
+			"title": "Azure Data Fundamentals",
+			"company": "Microsoft",
+			"date": "August 2024",
+			"description": "Thanks to this certification, I acquired in-depth skills in data management and analysis with Microsoft Azure. I learned to work with relational and non-relational databases, handle large data sets, and understand the fundamentals of data analytics services to optimize decision-making. This certification enabled me to master Azure tools and services for data management, including Azure Data Lake and Azure Synapse Analytics. I also developed ETL (Extract, Transform, Load) skills to transform and integrate data from various sources. Additionally, I learned to effectively visualize data to facilitate the interpretation and communication of analysis results.",
+			"skills": [
+				"Data Analysis",
+				"Microsoft Azure",
+				"SQL",
+				"Big Data",
+				"Relational Databases",
+				"NoSQL Databases",
+				"Azure Data Lake",
+				"Azure Synapse Analytics",
+				"ETL (Extract, Transform, Load)",
+				"Data Visualization",
+				"Data Management",
+				"Data Integration",
+				"Decision-Making Optimization"
+			],
+			"logo": "/assets/azure_logo.png"
+		},
+		{
+			"id": 4,
+			"title": "Digital Technologies Architect",
+			"company": "42 Lausanne",
+			"date": "October 2024",
+			"description": "This degree allowed me to develop deep expertise in designing and developing digital solutions. I strengthened my skills in project management, software architecture, and solving complex problems while collaborating in agile environments to deliver innovative and efficient solutions. I also gained practical experience using various modern technologies and tools to design, deploy, and maintain robust and scalable software systems. This program prepared me to tackle current technological challenges and innovate in the field of digital technologies.",
+			"skills": [
+				"Software Architecture",
+				"Project Management",
+				"C",
+				"C++",
+				"Python",
+				"Linux",
+				"Git",
+				"Docker",
+				"Kubernetes",
+				"DevOps",
+				"Design Patterns",
+				"Agility",
+				"Software Solution Design",
+				"Team Collaboration",
+				"Networking",
+				"Cybersecurity",
+				"Full Stack Development",
+				"Process Automation",
+				"Testing and Quality Assurance",
+				"Continuous Integration and Continuous Deployment (CI/CD)"
+			],
+			"logo": "/assets/42_logo.png"
+		}
+	]
+}

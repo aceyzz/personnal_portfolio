@@ -2,6 +2,7 @@ import { partialService } from "./partialService.js";
 import { projectService } from "./projectService.js";
 import { experienceService } from "./experienceService.js";
 import { certificationService } from "./certificationService.js";
+import { homeService } from "./homeService.js";
 
 class RouterService {
 	#container;
@@ -28,6 +29,7 @@ class RouterService {
 	async navigate(path) {
 		if (this.#currentRoute === path) return;
 		window.history.pushState({}, "", path);
+		this.#cleanup();
 		await this.#loadRoute(path);
 	}
 
@@ -54,6 +56,10 @@ class RouterService {
 
 	#handleRouteActions(path) {
 		switch (path) {
+			case "/":
+			case "/home":
+				homeService.init("home-container");
+				break;
 			case "/projects":
 				projectService.init("project-container");
 				break;
@@ -64,6 +70,12 @@ class RouterService {
 			default:
 				break;
 		}
+	}
+
+	#cleanup() {
+		document.querySelectorAll("[data-route]").forEach((link) => {
+			link.removeEventListener("click", () => {});
+		});
 	}
 }
 

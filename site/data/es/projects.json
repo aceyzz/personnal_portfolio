@@ -1,0 +1,367 @@
+{
+	"categories": [
+		{
+			"name": "Proyectos Personales",
+			"logo": "/assets/personnal_logo.png",
+			"projects": [
+				{
+					"title": "HomeLab Personal",
+					"description": "Despliegue de un HomeLab completo en un servidor Debian con servicios de IA, DevOps, virtualización y acceso VPN seguro.",
+					"detail": "Instalación y configuración de un servidor Debian en una máquina física reutilizada para alojar un HomeLab personal utilizando CasaOS. Configuración de Tailscale para acceso remoto seguro con cifrado de extremo a extremo. Despliegue y gestión de servicios avanzados mediante Docker: chatbot de IA local (Ollama + Open WebUI), entorno de desarrollo (VSCode Server, Gitea), herramientas de productividad (Ghostfolio, Wallos, LibreTranslate, Stirling PDF, Excalidraw) y solución de virtualización en entorno aislado (KASM Workspaces). Centralización de registros con Dozzle. Todos los servicios están en contenedores, aislados y accesibles solo a través de VPN. Este proyecto aplica buenas prácticas de administración de sistemas, seguridad de red, virtualización y DevOps, aprovechando herramientas modernas de código abierto y autoalojadas.",
+					"technologies": [
+						"Debian 12",
+						"CasaOS",
+						"Docker Compose",
+						"Gestión de volúmenes Docker",
+						"Reverse Proxy (integrado en CasaOS/Nginx)",
+						"Ollama (IA local optimizada para CPU)",
+						"Open WebUI",
+						"VSCode Server (contenedor de desarrollo)",
+						"Gitea (servidor Git autoalojado)",
+						"Dozzle (visor de logs de Docker)",
+						"Tailscale (VPN mesh cifrada)",
+						"Telegram Bot API (notificaciones push)",
+						"Wallos (gestor de tareas autoalojado)",
+						"Ghostfolio (gestión patrimonial)",
+						"LibreTranslate (traducción offline)",
+						"Stirling PDF (herramientas PDF locales)",
+						"Excalidraw (pizarra colaborativa)",
+						"KASM Workspaces (virtualización aislada)",
+						"Endurecimiento de puertos y acceso a red",
+						"Supervisión local (logs y recursos vía UI)"
+					],
+					"date": "Abril 2025",
+					"repo": "",
+					"logo": "/assets/projects/homelab.png"
+				},
+				{
+					"title": "Bot de Trading Automatizado",
+					"description": "Desarrollo de un bot de trading de criptomonedas utilizando Freqtrade, una estrategia DCA personalizada y una interfaz UI accesible a través de Cloudflare Tunnel.",
+					"detail": "Creación de un bot de trading automatizado basado en Freqtrade, integrando una avanzada estrategia de Promedio de Coste en Dólares (DCA) optimizada para un rendimiento anual mínimo del 15%. El bot monitorea las tendencias del mercado y aplica órdenes de compra y venta inteligentes basadas en indicadores técnicos. El rendimiento ha sido validado a través de backtests durante varios años: 2022 (15.05%), 2023 (17.83%) y 2024 (16.42%). La aplicación se despliega en un servidor Linux local, asegurando el control total sobre la infraestructura. La virtualización a través de Docker garantiza un aislamiento óptimo del servicio y facilita la gestión de actualizaciones y escalabilidad. Una interfaz de usuario a través de Freqtrade UI permite el seguimiento en tiempo real de posiciones abiertas, rendimiento e historial de transacciones. Se ha configurado un túnel de Cloudflare para asegurar el acceso remoto a la interfaz y garantizar una gestión fluida del bot sin exposición directa a Internet.",
+					"technologies": [
+						"Python",
+						"Freqtrade",
+						"PostgreSQL",
+						"Docker",
+						"Binance API",
+						"Pandas",
+						"NumPy",
+						"Telegram API",
+						"Freqtrade UI",
+						"Cloudflare Tunnel",
+						"Reverse Proxy",
+						"Raspberry Pi",
+						"Virtualization"
+					],
+					"date": "Febrero 2025",
+					"repo": "",
+					"logo": "/assets/projects/cryptobot.png"
+				},
+				{
+					"title": "Sitio Web de Portafolio",
+					"description": "Creación de un portafolio interactivo para mostrar mis logros.",
+					"detail": "Desarrollo de un sitio web interactivo para mostrar mis proyectos profesionales y personales. El sitio está alojado en Azure Static Web Apps para un rendimiento óptimo y una gestión simplificada del despliegue. El nombre de dominio es gestionado por Infomaniak. Se utiliza un servicio de enrutamiento personalizado en JavaScript puro para una navegación fluida entre las diferentes secciones del sitio, asegurando el principio de Aplicación de Página Única. El diseño es minimalista y moderno gracias al uso de picoCSS.",
+					"technologies": [
+						"HTML",
+						"CSS",
+						"JavaScript",
+						"Azure Static Web Apps",
+						"picoCSS"
+					],
+					"date": "Noviembre 2024",
+					"repo": "https://github.com/aceyzz/personnal_portfolio",
+					"logo": "assets/projects/portfolio.png"
+				}
+			]
+		},
+		{
+			"name": "42 - Especializaciones",
+			"logo": "/assets/42_logo.png",
+			"projects": [
+				{
+					"title": "Cloud-1",
+					"description": "Implementación de un entorno completo de WordPress con Docker Compose en Azure.",
+					"detail": "Este proyecto implica la creación de un entorno completo de WordPress utilizando contenedores Docker para WordPress, MariaDB, phpMyAdmin y Nginx, desplegados en una VM de Azure. Los contenedores son orquestados con Docker Compose y automatizados mediante Ansible para el despliegue y configuración. El entorno utiliza certificados SSL para asegurar las conexiones y garantiza la persistencia de datos para MariaDB y WordPress.",
+					"technologies": [
+						"Docker",
+						"Ansible",
+						"Azure",
+						"WordPress",
+						"MariaDB",
+						"Nginx",
+						"phpMyAdmin",
+						"SSL"
+					],
+					"date": "Noviembre 2024",
+					"repo": "https://github.com/aceyzz/cloud-1",
+					"logo": "/assets/projects/cloud-1.png"
+				}
+			]
+		},
+		{
+			"name": "42 - Common Core",
+			"logo": "/assets/42_logo.png",
+			"projects": [
+				{
+					"title": "Libft",
+					"description": "Recreación de las funciones principales de la biblioteca estándar de C.",
+					"detail": "Desarrollo de una biblioteca personal recreando varias funciones esenciales de la biblioteca estándar de C, enfocándose en las mejores prácticas y la gestión eficiente de la memoria.",
+					"technologies": [
+						"C",
+						"Makefile"
+					],
+					"date": "Octubre 2023",
+					"repo": "https://github.com/aceyzz/Libft",
+					"logo": "/assets/projects/libft.png"
+				},
+				{
+					"title": "Get Next Line",
+					"description": "Leer una línea de un archivo de manera optimizada.",
+					"detail": "Creación de una función capaz de leer línea por línea desde un archivo o entrada estándar, utilizando buffers para optimizar el rendimiento.",
+					"technologies": [
+						"C"
+					],
+					"date": "Noviembre 2023",
+					"repo": "https://github.com/aceyzz/Get_next_line",
+					"logo": "/assets/projects/gnl.png"
+				},
+				{
+					"title": "Ft_printf",
+					"description": "Reproducción de la función printf de la biblioteca estándar de C.",
+					"detail": "Desarrollo de una versión personalizada de la función printf, soportando múltiples formatos y especificaciones, gestionando la memoria de manera eficiente.",
+					"technologies": [
+						"C"
+					],
+					"date": "Noviembre 2023",
+					"repo": "https://github.com/aceyzz/Ft_printf",
+					"logo": "/assets/projects/printf.png"
+				},
+				{
+					"title": "Born2BeRoot",
+					"description": "Configurar una máquina virtual segura.",
+					"detail": "Instalación y configuración de una máquina virtual segura basada en Debian. Este proyecto cubre varios aspectos esenciales de la gestión del sistema, incluyendo la descarga e instalación de la máquina virtual, configuración inicial, conexión vía SSH y establecimiento de políticas de seguridad estrictas. Los conceptos cubiertos incluyen virtualización con VirtualBox, gestión de permisos y usuarios, instalación y configuración de servicios esenciales como SSH y UFW, así como la configuración de políticas de contraseñas robustas y registros de seguridad.",
+					"technologies": [
+						"Linux",
+						"VirtualBox",
+						"Debian",
+						"SSH",
+						"UFW",
+						"Sudo",
+						"Crontab"
+					],
+					"date": "Noviembre 2023",
+					"repo": "https://github.com/aceyzz/Born2beRoot",
+					"logo": "/assets/projects/b2r.png"
+				},
+				{
+					"title": "Push_Swap",
+					"description": "Implementar un algoritmo de ordenación con un número limitado de operaciones.",
+					"detail": "El proyecto push_swap implica desarrollar un programa en C que tome una lista de enteros como argumento de línea de comandos y muestre una secuencia de operaciones para ordenar estos enteros de manera óptima. El programa utiliza dos pilas, 'a' y 'b', y un conjunto limitado de operaciones de manipulación de pilas para ordenar los enteros. Las operaciones permitidas incluyen intercambios, rotaciones y operaciones de empuje entre las pilas. El objetivo es minimizar el número total de operaciones realizadas para ordenar la pila.",
+					"technologies": [
+						"C"
+					],
+					"date": "Noviembre 2023",
+					"repo": "https://github.com/aceyzz/Push_swap",
+					"logo": "/assets/projects/pushswap.png"
+				},
+				{
+					"title": "Minitalk",
+					"description": "Crear una aplicación cliente-servidor para intercambiar mensajes vía señales Unix.",
+					"detail": "Desarrollo de un sistema de comunicación cliente-servidor simple utilizando señales Unix como medio de transmisión. El cliente envía un mensaje al servidor, que lo recibe y lo muestra. El cliente convierte cada carácter del mensaje en una secuencia de bits y los envía al servidor utilizando señales SIGUSR1 y SIGUSR2. El servidor reconstruye el mensaje a partir de los bits recibidos y lo muestra. El servidor confirma la recepción de cada mensaje enviando una señal de vuelta al cliente. El proyecto también incluye características adicionales como soporte para caracteres Unicode.",
+					"technologies": [
+						"C",
+						"Unix",
+						"Señales"
+					],
+					"date": "Noviembre 2023",
+					"repo": "https://github.com/aceyzz/Minitalk",
+					"logo": "/assets/projects/minitalk.png"
+				},
+				{
+					"title": "So_Long",
+					"description": "Desarrollar un juego 2D en C basado en una biblioteca gráfica.",
+					"detail": "Bienvenido a So_Long, un proyecto de juego 2D desarrollado en C como parte de un programa de aprendizaje de programación. Este proyecto se centra en crear un juego simple utilizando la biblioteca gráfica MinilibX. El objetivo es construir un juego donde un jugador se mueve a través de un mapa, recoge objetos, evita obstáculos y llega a la salida. El juego implica gestionar entradas del usuario, renderizar gráficos y manejar elementos del juego como el jugador, objetos, obstáculos y la salida. El proyecto incluye gestión de eventos, animaciones e interacciones con el entorno.",
+					"technologies": [
+						"C",
+						"MinilibX",
+						"Gráficos"
+					],
+					"date": "Noviembre 2023",
+					"repo": "https://github.com/aceyzz/So_long",
+					"logo": "/assets/projects/solong.png"
+				},
+				{
+					"title": "Philosophers",
+					"description": "Simulación de un problema clásico de algoritmos multihilo.",
+					"detail": "Este programa implementa la simulación del clásico problema de los filósofos comensales utilizando hilos y mutexes en C. La simulación implica filósofos que alternan entre comer, pensar y dormir. Usan tenedores para comer y los devuelven a la mesa cuando terminan. Los filósofos nunca deben morir de hambre, y la simulación se detiene cuando un filósofo muere de inanición. El programa debe escribirse sin usar variables globales y debe tomar argumentos como el número de filósofos, límites de tiempo para comer, dormir y morir, así como un argumento opcional para el número de comidas que cada filósofo debe tener antes de que la simulación se detenga. El programa también debe manejar el registro de eventos y asegurar que los filósofos eviten la inanición. El programa puede implementarse con hilos y mutexes o con procesos y semáforos (en mi caso, hilos y mutexes).",
+					"technologies": [
+						"C",
+						"Multihilo"
+					],
+					"date": "Diciembre 2023",
+					"repo": "https://github.com/aceyzz/Philosophers",
+					"logo": "/assets/projects/philo.png"
+				},
+				{
+					"title": "Minishell",
+					"description": "Creación de una shell minimalista inspirada en Bash.",
+					"detail": "En nuestro proyecto 'Minishell' en la escuela 42, estamos desarrollando un programa de shell simplificado. Este desafío es crucial para nuestra comprensión de los procesos y descriptores de archivos. Nuestro objetivo es crear una versión minimalista de bash, sumergiéndonos en los matices de la programación de shells. Nos enfocamos en aspectos fundamentales como el manejo de la entrada de comandos, la manipulación de directorios de archivos, la interpretación de variables de entorno y la implementación de características esenciales como el manejo de señales y la ejecución de comandos. Este proyecto representa un paso importante hacia una comprensión profunda de la programación de sistemas, ofreciendo experiencia práctica con conceptos clave utilizados en entornos de shell Unix/Linux.",
+					"technologies": [
+						"C",
+						"Unix",
+						"Shell"
+					],
+					"date": "Enero 2024",
+					"repo": "https://github.com/aceyzz/Minishell",
+					"logo": "/assets/projects/shell.png"
+				},
+				{
+					"title": "Cub3D",
+					"description": "Desarrollo de un juego 3D inspirado en Wolfenstein 3D usando ray-casting.",
+					"detail": "Este proyecto implica la creación de un juego en primera persona en 3D utilizando ray-casting para renderizar un laberinto. El juego se desarrolla con la biblioteca gráfica MiniLibX e incluye características como movimiento del jugador, disparos y gestión de texturas.",
+					"technologies": [
+						"C",
+						"MiniLibX",
+						"Ray-casting"
+					],
+					"date": "Enero 2024",
+					"repo": "https://github.com/aceyzz/cub3d",
+					"logo": "/assets/projects/cube.png"
+				},
+				{
+					"title": "NetPractice",
+					"description": "Aprendizaje de conceptos fundamentales de redes.",
+					"detail": "El proyecto NetPractice es un emocionante desafío ofrecido por la escuela 42 que tiene como objetivo profundizar y aplicar mis habilidades en redes informáticas. Este proyecto es una oportunidad única para sumergirme en el complejo y fascinante mundo de las redes, aprendiendo a manipular, configurar y solucionar problemas en entornos de red reales y simulados. Los objetivos incluyen comprender los fundamentos de las redes, incluidos los modelos OSI y TCP/IP, dominar la configuración y gestión de dispositivos de red como switches y routers, y aplicar técnicas de resolución de problemas para identificar y resolver problemas de red.",
+					"technologies": [
+						"Redes",
+						"Modelo OSI",
+						"TCP/IP",
+						"Switches",
+						"Routers",
+						"Solución de problemas"
+					],
+					"date": "Febrero 2024",
+					"repo": "https://github.com/aceyzz/NetPractice",
+					"logo": "/assets/projects/ip.png"
+				},
+				{
+					"title": "Piscine C++ (part.1)",
+					"description": "Introducción a la programación orientada a objetos en C++.",
+					"detail": "Descubriendo los conceptos básicos de la programación orientada a objetos con C++. Enfoque en clases, objetos y modularidad. Comprensión del polimorfismo ad-hoc, sobrecarga y clases canónicas ortodoxas en C++. Aprendiendo sobre asignación de memoria, referencias, punteros a miembros y el uso de switch en C++. Explorando las especificidades de C++ en comparación con C, con una inmersión en la programación orientada a objetos. Estudiando el polimorfismo de subtipo, clases abstractas e interfaces en C++. Comprendiendo la herencia en C++ y sus implicaciones para diseñar software robusto y modular.",
+					"technologies": [
+						"C++"
+					],
+					"date": "Marzo 2024",
+					"repo": "https://github.com/aceyzz/CPP-Part.1",
+					"logo": "/assets/projects/cplusplus.png"
+				},
+				{
+					"title": "Piscine C++ (part.2)",
+					"description": "Profundización en conceptos avanzados de C++.",
+					"detail": "Profundización en características avanzadas de C++ como plantillas, diferentes tipos de casts, el uso de contenedores estándar (STL), contenedores de plantillas, iteradores y algoritmos, así como el manejo de excepciones con bloques Try/Catch. El proyecto también incluye la implementación de conceptos de programación genérica, la manipulación de punteros inteligentes y la optimización del rendimiento a través de técnicas avanzadas de gestión de memoria.",
+					"technologies": [
+						"C++"
+					],
+					"date": "Marzo 2024",
+					"repo": "https://github.com/aceyzz/CPP-Part.2",
+					"logo": "/assets/projects/cplusplus.png"
+				},
+				{
+					"title": "Inception",
+					"description": "Despliegue de una infraestructura web compleja y segura con Docker.",
+					"detail": "Como parte de nuestro plan de estudios en la escuela 42, abordaremos el proyecto titulado 'Inception'. Este ambicioso proyecto tiene como objetivo profundizar y aplicar los conocimientos adquiridos en virtualización y gestión de contenedores. Nuestro objetivo es desplegar una infraestructura compleja y segura, completamente configurada utilizando Docker y orquestada por docker-compose, todo dentro de una máquina virtual dedicada. La arquitectura incluye varios componentes clave: un contenedor Docker con NGINX, un contenedor dedicado a WordPress + php-fpm, un contenedor para MariaDB, dos volúmenes distintos para la base de datos y los archivos del sitio web, y una red Docker específica para la comunicación entre contenedores. Los contenedores deben construirse a partir de Dockerfiles personalizados, sin usar imágenes Docker preconstruidas o servicios como DockerHub.",
+					"technologies": [
+						"Docker",
+						"WordPress",
+						"MariaDB",
+						"php-fpm",
+						"Nginx",
+						"TLS",
+						"Docker Compose",
+						"Virtualización"
+					],
+					"date": "Marzo 2024",
+					"repo": "https://github.com/aceyzz/Inception",
+					"logo": "/assets/projects/inception.png"
+				},
+				{
+					"title": "Webserv",
+					"description": "Implementación de un servidor web en C++ siguiendo el protocolo HTTP.",
+					"detail": "El proyecto Webserv en la escuela 42 implica la implementación de un servidor web en C++ según el estándar C++98. Este servidor debe ser capaz de servir archivos estáticos y manejar solicitudes CGI. También debe manejar múltiples conexiones simultáneas, archivos grandes de manera asincrónica y no bloqueante. Además, el servidor debe soportar los métodos HTTP GET, POST y DELETE, así como solicitudes CGI para GET y POST. Debe manejar errores y devolver códigos de estado HTTP apropiados. El servidor también debe gestionar solicitudes con encabezados y cuerpos grandes, con un límite definido en el archivo de configuración. El comportamiento de referencia para este proyecto es el de Nginx.",
+					"technologies": [
+						"C++",
+						"Redes",
+						"HTTP",
+						"CGI",
+						"I/O Asincrónico",
+						"SSL"
+					],
+					"date": "Agosto 2024",
+					"repo": "https://github.com/aceyzz/webserv",
+					"logo": "/assets/projects/web.png"
+				},
+				{
+					"title": "Ft_Transcendence",
+					"description": "Desarrollo de una aplicación web completa para un juego multijugador en línea.",
+					"detail": "Creación de una plataforma web para un juego multijugador en tiempo real, incluyendo WebSocket. El proyecto incluye gestión de usuarios, soporte multijugador local y remoto, un sistema de torneos, tablas de estadísticas y medidas de seguridad avanzadas como el hash de contraseñas y la protección contra ataques XSS/SQL Injection. El backend es gestionado por un módulo web personalizado, la base de datos está integrada y el frontend utiliza JavaScript con un kit de herramientas moderno. La aplicación es una SPA compatible con Chrome, sin errores de consola, y se lanza con un solo comando.",
+					"technologies": [
+						"HTML",
+						"CSS",
+						"JavaScript",
+						"Django",
+						"WebSocket",
+						"PostgreSQL",
+						"Docker",
+						"Modsecurity",
+						"Nginx",
+						"HashiCorp Vault"
+					],
+					"date": "Octubre 2024",
+					"repo": "https://github.com/aceyzz/ft_transcendence",
+					"logo": "/assets/projects/pong.png"
+				}
+			]
+		},
+		{
+			"name": "42 - Piscine",
+			"logo": "/assets/42_logo.png",
+			"projects": [
+				{
+					"title": "Shell Modules",
+					"description": "Introducción a la programación en shell y gestión de comandos Unix.",
+					"detail": "Este proyecto explora los conceptos básicos de la programación en shell, comandos esenciales de Unix y su uso en un entorno Linux. El objetivo es aprender a automatizar tareas comunes.",
+					"technologies": [
+						"Programación en shell",
+						"Unix"
+					],
+					"date": "Septiembre 2023",
+					"repo": "https://github.com/aceyzz/42-Piscine/tree/main/shell_modules",
+					"logo": "/assets/projects/modules_shell.png"
+				},
+				{
+					"title": "C Modules",
+					"description": "Introducción a los conceptos básicos del lenguaje C, lógica y algoritmos simples.",
+					"detail": "Aprendizaje de los conceptos básicos del lenguaje C, incluyendo estructuras de datos, bucles y funciones. Los proyectos también se centran en la lógica algorítmica y herramientas de compilación.",
+					"technologies": [
+						"C"
+					],
+					"date": "Septiembre 2023",
+					"repo": "https://github.com/aceyzz/42-Piscine/tree/main/c_modules",
+					"logo": "/assets/projects/modules_c.png"
+				},
+				{
+					"title": "Rushes",
+					"description": "Desafíos intensivos en equipo para resolver problemas complejos.",
+					"detail": "Trabajo colaborativo en desafíos complejos con plazos ajustados, con el objetivo de mejorar las habilidades de resolución de problemas y la comunicación en equipo.",
+					"technologies": [
+						"C",
+						"Trabajo colaborativo"
+					],
+					"date": "Septiembre 2023",
+					"repo": "https://github.com/aceyzz/42-Piscine/tree/main/rushes",
+					"logo": "/assets/projects/rushes.png"
+				}
+			]
+		}
+	]
+}

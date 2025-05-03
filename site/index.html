@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr">
+<html lang="fr" class="dark">
 	<head>
 		<meta charset="UTF-8" />
 		<link rel="icon" type="image/svg+xml" href="/assets/logo.png" />
@@ -12,24 +12,18 @@
 		<header>
 			<nav>
 				<ul class="btn-header-container">
-					<li>
-						<a data-route href="/home" class="btn-header" style="--clr: var(--primary);"><span>Accueil</span><i></i></a>
-					</li>
-					<li>
-						<a data-route href="/projects" class="btn-header" style="--clr: var(--primary);"><span>Projets</span><i></i></a>
-					</li>
-					<li>
-						<a data-route href="/experience" class="btn-header" style="--clr: var(--primary);"><span>Expérience</span><i></i></a>
-					</li>
-					<li>
-						<a data-route href="/contact" class="btn-header" style="--clr: var(--primary);"><span>Contact</span><i></i></a>
-					</li>
+					<li><a data-route href="/home" class="btn-header" style="--clr: var(--primary);"><span>Home</span><i></i></a></li>
+					<li><a data-route href="/projects" class="btn-header" style="--clr: var(--primary);"><span>Projects</span><i></i></a></li>
+					<li><a data-route href="/experience" class="btn-header" style="--clr: var(--primary);"><span>Experience</span><i></i></a></li>
+					<li><a data-route href="/contact" class="btn-header" style="--clr: var(--primary);"><span>Contact</span><i></i></a></li>
 				</ul>
 			</nav>
+			<div id="language-selector" class="language-selector">
+				<img id="lang-icon" src="" alt="Langue actuelle" class="lang-icon">
+				<ul id="lang-menu" class="lang-menu hidden"></ul>
+			</div>
 		</header>
-		<main id="content" class="content" style="padding: 10px">
-			<!-- contenu dynamique -->
-		</main>
+		<main id="content" class="content" style="padding: 10px"></main>
 		<script type="module" src="js/main.js"></script>
 	</body>
 </html>

@@ -1,0 +1,103 @@
+{
+	"certifications": [
+		{
+			"id": 1,
+			"title": "Fundamentos de Seguridad, Cumplimiento e Identidad en Azure",
+			"company": "Microsoft",
+			"date": "Diciembre 2024",
+			"description": "Esta certificación me permitió desarrollar una comprensión profunda de los conceptos fundamentales de seguridad, cumplimiento y gestión de identidades en un entorno de nube. Adquirí habilidades esenciales para implementar estrategias de seguridad basadas en principios de Zero Trust, mejorar la protección de datos y recursos, y asegurar el cumplimiento normativo. Esta certificación me preparó para usar herramientas y servicios de Microsoft Azure para asegurar infraestructuras en la nube, gestionar identidades y accesos, y monitorear posibles amenazas y vulnerabilidades.",
+			"skills": [
+				"Microsoft Azure",
+				"Seguridad en la Nube",
+				"Cumplimiento Normativo",
+				"Principios de Zero Trust",
+				"Gestión de Identidades y Accesos",
+				"Estrategias de Gobernanza en la Nube",
+				"Protección de Datos",
+				"Gestión de Amenazas y Vulnerabilidades",
+				"Monitoreo de Recursos en la Nube",
+				"Privacidad e Integridad de Datos",
+				"Encriptación y Gestión de Claves",
+				"Evaluación de Riesgos",
+				"Gestión de Roles y Permisos"
+			],
+			"logo": "/assets/azure_logo.png"
+		},
+		{
+			"id": 2,
+			"title": "Fundamentos de la Nube de Azure",
+			"company": "Microsoft",
+			"date": "Agosto 2024",
+			"description": "Esta certificación me permitió desarrollar una comprensión profunda de los conceptos básicos de la computación en la nube, incluyendo los servicios y soluciones ofrecidos por Microsoft Azure. Adquirí habilidades esenciales para diseñar, desplegar y gestionar soluciones en la nube. También fortalecí mi conocimiento de los principios fundamentales de seguridad, cumplimiento y gestión de costos en un entorno de nube. Esta certificación me preparó para usar herramientas y servicios de Azure para optimizar operaciones y mejorar la eficiencia de las infraestructuras en la nube.",
+			"skills": [
+				"Computación en la Nube",
+				"Microsoft Azure",
+				"Infrastructure as a Service (IaaS)",
+				"Platform as a Service (PaaS)",
+				"Modelos de Despliegue en la Nube",
+				"Seguridad en la Nube",
+				"Recursos de Azure",
+				"Gestión de Costos en la Nube",
+				"Conceptos de Virtualización",
+				"Optimización de Operaciones en la Nube",
+				"Cumplimiento y Regulación en la Nube",
+				"Gestión de Identidades y Accesos",
+				"Monitoreo y Gestión del Rendimiento"
+			],
+			"logo": "/assets/azure_logo.png"
+		},
+		{
+			"id": 3,
+			"title": "Fundamentos de Datos en Azure",
+			"company": "Microsoft",
+			"date": "Agosto 2024",
+			"description": "Gracias a esta certificación, adquirí habilidades profundas en gestión y análisis de datos con Microsoft Azure. Aprendí a trabajar con bases de datos relacionales y no relacionales, manejar grandes conjuntos de datos y entender los fundamentos de los servicios de análisis de datos para optimizar la toma de decisiones. Esta certificación me permitió dominar herramientas y servicios de Azure para la gestión de datos, incluyendo Azure Data Lake y Azure Synapse Analytics. También desarrollé habilidades de ETL (Extracción, Transformación, Carga) para transformar e integrar datos de diversas fuentes. Además, aprendí a visualizar datos de manera efectiva para facilitar la interpretación y comunicación de los resultados del análisis.",
+			"skills": [
+				"Análisis de Datos",
+				"Microsoft Azure",
+				"SQL",
+				"Big Data",
+				"Bases de Datos Relacionales",
+				"Bases de Datos NoSQL",
+				"Azure Data Lake",
+				"Azure Synapse Analytics",
+				"ETL (Extracción, Transformación, Carga)",
+				"Visualización de Datos",
+				"Gestión de Datos",
+				"Integración de Datos",
+				"Optimización de la Toma de Decisiones"
+			],
+			"logo": "/assets/azure_logo.png"
+		},
+		{
+			"id": 4,
+			"title": "Arquitecto de Tecnologías Digitales",
+			"company": "42 Lausanne",
+			"date": "Octubre 2024",
+			"description": "Este título me permitió desarrollar una profunda experiencia en el diseño y desarrollo de soluciones digitales. Fortalecí mis habilidades en gestión de proyectos, arquitectura de software y resolución de problemas complejos mientras colaboraba en entornos ágiles para entregar soluciones innovadoras y eficientes. También adquirí experiencia práctica utilizando diversas tecnologías y herramientas modernas para diseñar, desplegar y mantener sistemas de software robustos y escalables. Este programa me preparó para enfrentar los desafíos tecnológicos actuales e innovar en el campo de las tecnologías digitales.",
+			"skills": [
+				"Arquitectura de Software",
+				"Gestión de Proyectos",
+				"C",
+				"C++",
+				"Python",
+				"Linux",
+				"Git",
+				"Docker",
+				"Kubernetes",
+				"DevOps",
+				"Patrones de Diseño",
+				"Agilidad",
+				"Diseño de Soluciones de Software",
+				"Colaboración en Equipo",
+				"Redes",
+				"Ciberseguridad",
+				"Desarrollo Full Stack",
+				"Automatización de Procesos",
+				"Pruebas y Aseguramiento de la Calidad",
+				"Integración y Despliegue Continuos (CI/CD)"
+			],
+			"logo": "/assets/42_logo.png"
+		}
+	]
+}

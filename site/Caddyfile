@@ -1,0 +1,13 @@
+:8080
+
+root * .
+file_server
+
+@spa_routes {
+    path /home
+    path /contact
+    path /experience
+    path /projects
+}
+
+rewrite @spa_routes /

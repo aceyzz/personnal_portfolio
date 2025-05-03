@@ -1,5 +1,6 @@
 import { routerService } from "./services/routerService.js";
 import { cursorHaloService } from "./services/cursorService.js";
+import { langSelectorService } from "./services/LangSelectorService.js";
 
 // setup the router service
 routerService.setup(document.getElementById("content"));
@@ -16,3 +17,4 @@ routerService.start();
 
 // start the cursor halo service
 cursorHaloService;
+langSelectorService;
