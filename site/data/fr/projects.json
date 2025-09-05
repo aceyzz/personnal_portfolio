@@ -5,34 +5,91 @@
 			"logo": "/assets/personnal_logo.png",
 			"projects": [
 				{
+					"title": "BibleFlow",
+					"description": "Application mobile Swift pour la lecture de la Bible hors ligne, multilingue, pour iOS et macOS.",
+					"detail": "BibleFlow est une application mobile en Swift conçue pour offrir une expérience de lecture de la Bible complète sans connexion internet. Elle prend en charge plusieurs langues pour les textes bibliques, une interface adaptative fonctionnant sur iOS et macOS, ainsi qu’une navigation fluide entre les livres, chapitres et versets. L’app met l’accent sur l’accessibilité et la performance offline. Actuellement en développement, le projet inclut la gestion de différentes traductions, le stockage local des versions de la Bible, et une UI moderne responsive basée sur SwiftUI (ou UIKit), avec futures fonctionnalités futures comme la recherche, les favoris, les annotations, ou la synchronisation des données entre appareils.",
+					"technologies": [
+					"Swift",
+					"SwiftUI",
+					"Core Data (stockage local)",
+					"iOS",
+					"macOS",
+					"Multilingue",
+					"Offline"
+					],
+						"date": "En cours",
+						"repo": null,
+						"logo": "/assets/projects/bible.png",
+						"banner": "/assets/projects/banner/bible.png",
+						"category": [
+						"IA & Données",
+						"Programmation Orientée Objet",
+						"Développement Mobile"
+					]
+				},
+				{
+					"title": "BTCpay Server – Paiements Cryptos",
+					"description": "Déploiement d’un serveur BTCpay auto-hébergé pour accepter des paiements en cryptomonnaies (BTC, XMR, LTC, DOGE, DASH) de manière souveraine, sécurisée et sans intermédiaire.",
+					"detail": "Mise en place de BTCpay Server sur un serveur on-prem Debian via Docker, avec un reverse proxy sécurisé et un accès distant protégé. Configuration des wallets pour plusieurs cryptomonnaies (Bitcoin, Monero, Litecoin, Dogecoin, Dash), génération de factures dynamiques, intégration d’un nœud complet pour chacuns, et gestion des clés en local sans tiers de confiance. Ce projet renforce l’autonomie financière et met en pratique des notions avancées de décentralisation, de sécurité et de souveraineté numérique. Une attention particulière est portée à la résilience de l’infrastructure, à la sécurité réseau et à l’expérience utilisateur côté commerçant comme client.",
+					"technologies": [
+						"Debian",
+						"Docker",
+						"Docker Compose",
+						"BTCpay Server",
+						"Nginx Reverse Proxy",
+						"Bitcoin Full Node",
+						"XMR Wallet",
+						"LTC Wallet",
+						"DOGE Wallet",
+						"DASH Wallet",
+						"Tailscale",
+						"Auto-hébergement",
+						"Sécurité réseau",
+						"Crypto-monnaies"
+					],
+					"date": "Juin 2025",
+					"repo": null,
+					"logo": "/assets/projects/crypto.png",
+					"banner": "/assets/projects/banner/btcpay.png",
+					"category": [
+						"Systèmes & DevOps",
+						"Cybersécurité & Réseau"
+					]
+				},
+				{
 					"title": "HomeLab Personnel",
 					"description": "Déploiement d’un HomeLab complet sur serveur Debian avec services IA, DevOps, virtualisation et sécurité via VPN privé.",
-					"detail": "Installation et configuration d’un serveur Debian sur une machine physique recyclée pour y héberger un HomeLab personnel via CasaOS. Mise en place de Tailscale pour un accès distant sécurisé et chiffrement de bout en bout. Déploiement et gestion de services avancés via Docker : chatbot IA local (Ollama + Open WebUI), environnement de développement (VSCode Server, Gitea), outils de productivité (Ghostfolio, Wallos, LibreTranslate, Stirling PDF, Excalidraw) et solution de virtualisation sandboxée (KASM Workspaces). Centralisation des logs via Dozzle. Tous les services sont conteneurisés, isolés et accessibles uniquement via VPN. Ce projet met en œuvre les meilleures pratiques d’administration système, de sécurité réseau, de virtualisation et de DevOps, tout en exploitant des outils modernes en auto-hébergement.",
+					"detail": "Installation et configuration d’un serveur Debian sur une machine physique recyclée pour y héberger un HomeLab personnel via CasaOS. Mise en place de Tailscale pour un accès distant sécurisé et chiffré. Déploiement et gestion de services avancés via Docker : chatbot IA local (Ollama CPU + Open WebUI), environnement de développement (VSCode Server), outils de productivité (Ghostfolio, Wallos, LibreTranslate, Stirling PDF, ConvertX, IT Tools), lecteur multimédia (Navidrome), desktop distant (Webtop) et un YouTube Downloader développé sur mesure. Centralisation des logs via Dozzle. Tous les services sont conteneurisés, isolés et accessibles uniquement via VPN. Ce projet met en œuvre les meilleures pratiques d’administration système, de sécurité réseau, de virtualisation et de DevOps, tout en exploitant des outils modernes en auto-hébergement.",
 					"technologies": [
-						"Debian 12",
+						"Debian",
 						"CasaOS",
+						"Docker",
 						"Docker Compose",
-						"Gestion de volumes Docker",
-						"Reverse Proxy (CasaOS/Nginx intégré)",
-						"Ollama (IA locale optimisée CPU)",
+						"Reverse Proxy",
+						"Ollama",
 						"Open WebUI",
-						"VSCode Server (dev container)",
-						"Gitea (serveur Git auto-hébergé)",
-						"Dozzle (log viewer Docker)",
-						"Tailscale (VPN mesh chiffré)",
-						"Telegram Bot API (notifications push)",
-						"Wallos (gestionnaire de tâches auto-hébergé)",
-						"Ghostfolio (gestion patrimoniale)",
-						"LibreTranslate (traduction hors-ligne)",
-						"Stirling PDF (outils PDF local)",
-						"Excalidraw (whiteboard collaboratif)",
-						"KASM Workspaces (virtualisation sandboxée)",
-						"Sécurisation des ports et accès réseau",
-						"Monitoring local (logs & ressources via UI)"
+						"VSCode Server",
+						"Gitea",
+						"Dozzle",
+						"Tailscale",
+						"Telegram Bot API",
+						"Wallos",
+						"Ghostfolio",
+						"LibreTranslate",
+						"Stirling PDF",
+						"Excalidraw",
+						"KASM Workspaces",
+						"Sécurité réseau",
+						"Monitoring local"
 					],
 					"date": "Avril 2025",
-					"repo": "",
-					"logo": "/assets/projects/homelab.png"
+					"repo": null,
+					"logo": "/assets/projects/homelab.png",
+					"banner": "/assets/projects/banner/homelab.png",
+					"category": [
+						"Systèmes & DevOps",
+						"Cybersécurité & Réseau"
+					]
 				},
 				{
 					"title": "Bot de Trading Automatisé",
@@ -46,7 +103,7 @@
 						"Binance API",
 						"Pandas",
 						"NumPy",
-						"Telegram API",
+						"Telegram Bot API",
 						"Freqtrade UI",
 						"Cloudflare Tunnel",
 						"Reverse Proxy",
@@ -54,8 +111,13 @@
 						"Virtualisation"
 					],
 					"date": "Février 2025",
-					"repo": "",
-					"logo": "/assets/projects/cryptobot.png"
+					"repo": null,
+					"logo": "/assets/projects/cryptobot.png",
+					"banner": "/assets/projects/banner/bot.png",
+					"category": [
+						"IA & Données",
+						"Systèmes & DevOps"
+					]
 				},
 				{
 					"title": "Portfolio Website",
@@ -66,11 +128,16 @@
 						"CSS",
 						"JavaScript",
 						"Azure Static Web Apps",
-						"picoCSS"
+						"picoCSS",
+						"Github CI/CD"
 					],
 					"date": "Novembre 2024",
 					"repo": "https://github.com/aceyzz/personnal_portfolio",
-					"logo": "assets/projects/portfolio.png"
+					"logo": "/assets/projects/portfolio.png",
+					"banner": "/assets/projects/banner/portfolio.png",
+					"category": [
+						"Développement Web"
+					]
 				}
 			]
 		},
@@ -79,22 +146,75 @@
 			"logo": "/assets/42_logo.png",
 			"projects": [
 				{
+					"title": "Inception of Things",
+					"description": "Projet d’initiation à Kubernetes avec Vagrant, K3s, K3d et GitOps (Argo CD), développé dans le cadre de l’école 42.",
+					"detail": "Ce projet vise à se familiariser avec Kubernetes d’un point de vue développeur. On commence par créer une ou plusieurs machines virtuelles avec Vagrant (partie 1). Ensuite, on déploies un cluster K3s et on y fait tourner plusieurs applications avec un Ingress (partie 2). La dernière étape implique K3d associé à Argo CD pour mettre en place une intégration continue/déploiement continu directement depuis un dépôt GitHub (partie 3). Une partie bonus optionnelle consiste à intégrer GitLab + CI/CD avec Argo CD pour synchroniser automatiquement les applications sur le cluster.",
+					"technologies": [
+						"Vagrant",
+						"K3s",
+						"K3d",
+						"Kubernetes",
+						"Ingress",
+						"Docker",
+						"Argo CD",
+						"GitOps",
+						"CI/CD",
+						"GitLab"
+					],
+					"date": "Septembre 2025",
+					"repo": "https://github.com/aceyzz/inception-of-things",
+					"logo": "/assets/projects/iot.png",
+					"banner": "/assets/projects/banner/iot.png",
+					"category": [
+						"Projets 42",
+						"Systèmes & DevOps"
+					]
+				},
+				{
+					"title": "Swifty-Companion",
+					"description": "Application iOS en SwiftUI utilisant l’API de 42 pour afficher des informations sur un étudiant.",
+					"detail": "Swifty-Companion est un projet mobile réalisé dans le cadre de l’école 42. Il s’agit d’une application iOS développée en SwiftUI qui consomme l’API officielle de 42 via OAuth2 (Intranet) pour afficher de manière dynamique les données d’un utilisateur. L’app comprend une vue d’accueil avec un champ de recherche (login 42), une vue de profil étudiant (login, niveau, localisation dans l’école, coalition, projets réalisés, compétences, photo de profil), une architecture réactive adaptée à plusieurs tailles d’écran, et une gestion robuste des erreurs (login introuvable, API indisponible, problèmes réseau ou d’authentification). Des bonus comme le rafraîchissement du token OAuth2 à expiration et la reconnexion automatique sont possibles si la partie obligatoire est parfaite. Le tout respecte les bonnes pratiques de sécurité, notamment avec `.env` ignoré pour les clés API. ",
+					"technologies": [
+						"Swift",
+						"SwiftUI",
+						"OAuth2",
+						"REST API",
+						"Responsive UI",
+						"iOS"
+					],
+					"date": "En cours",
+					"repo": "https://github.com/aceyzz/swifty-companion",
+					"logo": "/assets/projects/swifty.png",
+					"banner": "/assets/projects/banner/swifty.png",
+					"category": [
+						"Projets 42",
+						"Développement Mobile",
+						"Programmation Orientée Objet"
+					]
+				},
+				{
 					"title": "Cloud-1",
 					"description": "Implémentation d'un environnement WordPress complet avec Docker Compose sur Azure.",
 					"detail": "Ce projet consiste à créer un environnement WordPress complet en utilisant des conteneurs Docker pour WordPress, MariaDB, phpMyAdmin, et Nginx, déployés sur une VM Azure. Les conteneurs sont orchestrés avec Docker Compose et automatisés via Ansible pour le déploiement et la configuration. L'environnement utilise des certificats SSL pour sécuriser les connexions et assure la persistance des données pour MariaDB et WordPress.",
 					"technologies": [
 						"Docker",
+						"Docker Compose",
 						"Ansible",
 						"Azure",
-						"Wordpress",
+						"WordPress",
 						"MariaDB",
-						"Nginx",
 						"phpMyAdmin",
+						"Nginx",
 						"SSL"
 					],
 					"date": "Novembre 2024",
 					"repo": "https://github.com/aceyzz/cloud-1",
-					"logo": "/assets/projects/cloud-1.png"
+					"logo": "/assets/projects/cloud-1.png",
+					"banner": "/assets/projects/banner/cloud-1.png",
+					"category": [
+						"Systèmes & DevOps",
+						"Projets 42"
+					]
 				}
 			]
 		},
@@ -112,7 +232,12 @@
 					],
 					"date": "Octobre 2023",
 					"repo": "https://github.com/aceyzz/Libft",
-					"logo": "/assets/projects/libft.png"
+					"logo": "/assets/projects/libft.png",
+					"banner": "/assets/projects/banner/libft.png",
+					"category": [
+						"Programmation Bas Niveau",
+						"Projets 42"
+					]
 				},
 				{
 					"title": "Get Next Line",
@@ -123,7 +248,12 @@
 					],
 					"date": "Novembre 2023",
 					"repo": "https://github.com/aceyzz/Get_next_line",
-					"logo": "/assets/projects/gnl.png"
+					"logo": "/assets/projects/gnl.png",
+					"banner": "/assets/projects/banner/gnl.png",
+					"category": [
+						"Programmation Bas Niveau",
+						"Projets 42"
+					]
 				},
 				{
 					"title": "Ft_printf",
@@ -134,7 +264,12 @@
 					],
 					"date": "Novembre 2023",
 					"repo": "https://github.com/aceyzz/Ft_printf",
-					"logo": "/assets/projects/printf.png"
+					"logo": "/assets/projects/printf.png",
+					"banner": "/assets/projects/banner/ftprintf.png",
+					"category": [
+						"Programmation Bas Niveau",
+						"Projets 42"
+					]
 				},
 				{
 					"title": "Born2BeRoot",
@@ -151,7 +286,13 @@
 					],
 					"date": "Novembre 2023",
 					"repo": "https://github.com/aceyzz/Born2beRoot",
-					"logo": "/assets/projects/b2r.png"
+					"logo": "/assets/projects/b2r.png",
+					"banner": "/assets/projects/banner/b2r.png",
+					"category": [
+						"Systèmes & DevOps",
+						"Cybersécurité & Réseau",
+						"Projets 42"
+					]
 				},
 				{
 					"title": "Push_Swap",
@@ -162,7 +303,12 @@
 					],
 					"date": "Novembre 2023",
 					"repo": "https://github.com/aceyzz/Push_swap",
-					"logo": "/assets/projects/pushswap.png"
+					"logo": "/assets/projects/pushswap.png",
+					"banner": "/assets/projects/banner/pushswap.png",
+					"category": [
+						"Programmation Bas Niveau",
+						"Projets 42"
+					]
 				},
 				{
 					"title": "Minitalk",
@@ -175,7 +321,12 @@
 					],
 					"date": "Novembre 2023",
 					"repo": "https://github.com/aceyzz/Minitalk",
-					"logo": "/assets/projects/minitalk.png"
+					"logo": "/assets/projects/minitalk.png",
+					"banner": "/assets/projects/banner/minitalk.png",
+					"category": [
+						"Programmation Bas Niveau",
+						"Projets 42"
+					]
 				},
 				{
 					"title": "So_Long",
@@ -188,7 +339,12 @@
 					],
 					"date": "Novembre 2023",
 					"repo": "https://github.com/aceyzz/So_long",
-					"logo": "/assets/projects/solong.png"
+					"logo": "/assets/projects/solong.png",
+					"banner": "/assets/projects/banner/solong.png",
+					"category": [
+						"Programmation Bas Niveau",
+						"Projets 42"
+					]
 				},
 				{
 					"title": "Philosophers",
@@ -200,7 +356,12 @@
 					],
 					"date": "Décembre 2023",
 					"repo": "https://github.com/aceyzz/Philosophers",
-					"logo": "/assets/projects/philo.png"
+					"logo": "/assets/projects/philo.png",
+					"banner": null,
+					"category": [
+						"Programmation Bas Niveau",
+						"Projets 42"
+					]
 				},
 				{
 					"title": "Minishell",
@@ -213,7 +374,12 @@
 					],
 					"date": "Janvier 2024",
 					"repo": "https://github.com/aceyzz/Minishell",
-					"logo": "/assets/projects/shell.png"
+					"logo": "/assets/projects/shell.png",
+					"banner": "/assets/projects/banner/minishell.png",
+					"category": [
+						"Programmation Bas Niveau",
+						"Projets 42"
+					]
 				},
 				{
 					"title": "Cub3D",
@@ -226,7 +392,12 @@
 					],
 					"date": "Janvier 2024",
 					"repo": "https://github.com/aceyzz/cub3d",
-					"logo": "/assets/projects/cube.png"
+					"logo": "/assets/projects/cube.png",
+					"banner": "/assets/projects/banner/cub3d.png",
+					"category": [
+						"Programmation Bas Niveau",
+						"Projets 42"
+					]
 				},
 				{
 					"title": "NetPractice",
@@ -242,7 +413,12 @@
 					],
 					"date": "Février 2024",
 					"repo": "https://github.com/aceyzz/NetPractice",
-					"logo": "/assets/projects/ip.png"
+					"logo": "/assets/projects/ip.png",
+					"banner": "/assets/projects/banner/netpractice.png",
+					"category": [
+						"Cybersécurité & Réseau",
+						"Projets 42"
+					]
 				},
 				{
 					"title": "Piscine C++ (part.1)",
@@ -253,7 +429,12 @@
 					],
 					"date": "Mars 2024",
 					"repo": "https://github.com/aceyzz/CPP-Part.1",
-					"logo": "/assets/projects/cplusplus.png"
+					"logo": "/assets/projects/cplusplus.png",
+					"banner": "/assets/projects/banner/cpp1.png",
+					"category": [
+						"Programmation Orientée Objet",
+						"Projets 42"
+					]
 				},
 				{
 					"title": "Piscine C++ (part.2)",
@@ -264,7 +445,12 @@
 					],
 					"date": "Mars 2024",
 					"repo": "https://github.com/aceyzz/CPP-Part.2",
-					"logo": "/assets/projects/cplusplus.png"
+					"logo": "/assets/projects/cplusplus.png",
+					"banner": "/assets/projects/banner/cpp2.png",
+					"category": [
+						"Programmation Orientée Objet",
+						"Projets 42"
+					]
 				},
 				{
 					"title": "Inception",
@@ -282,7 +468,13 @@
 					],
 					"date": "Mars 2024",
 					"repo": "https://github.com/aceyzz/Inception",
-					"logo": "/assets/projects/inception.png"
+					"logo": "/assets/projects/inception.png",
+					"banner": "/assets/projects/banner/inception.png",
+					"category": [
+						"Systèmes & DevOps",
+						"Cybersécurité & Réseau",
+						"Projets 42"
+					]
 				},
 				{
 					"title": "Webserv",
@@ -298,7 +490,13 @@
 					],
 					"date": "Aout 2024",
 					"repo": "https://github.com/aceyzz/webserv",
-					"logo": "/assets/projects/web.png"
+					"logo": "/assets/projects/web.png",
+					"banner": "/assets/projects/banner/webserv.png",
+					"category": [
+						"Développement Web",
+						"Programmation Orientée Objet",
+						"Projets 42"
+					]
 				},
 				{
 					"title": "Ft_Transcendence",
@@ -318,7 +516,13 @@
 					],
 					"date": "Octobre 2024",
 					"repo": "https://github.com/aceyzz/ft_transcendence",
-					"logo": "/assets/projects/pong.png"
+					"logo": "/assets/projects/pong.png",
+					"banner": "/assets/projects/banner/transcendence.png",
+					"category": [
+						"Développement Web",
+						"Cybersécurité & Réseau",
+						"Projets 42"
+					]
 				}
 			]
 		},
@@ -336,7 +540,11 @@
 					],
 					"date": "Septembre 2023",
 					"repo": "https://github.com/aceyzz/42-Piscine/tree/main/shell_modules",
-					"logo": "/assets/projects/modules_shell.png"
+					"logo": "/assets/projects/modules_shell.png",
+					"category": [
+						"Programmation Bas Niveau",
+						"Projets 42"
+					]
 				},
 				{
 					"title": "Modules C",
@@ -347,7 +555,11 @@
 					],
 					"date": "Septembre 2023",
 					"repo": "https://github.com/aceyzz/42-Piscine/tree/main/c_modules",
-					"logo": "/assets/projects/modules_c.png"
+					"logo": "/assets/projects/modules_c.png",
+					"category": [
+						"Programmation Bas Niveau",
+						"Projets 42"
+					]
 				},
 				{
 					"title": "Rushes",
@@ -359,7 +571,11 @@
 					],
 					"date": "Septembre 2023",
 					"repo": "https://github.com/aceyzz/42-Piscine/tree/main/rushes",
-					"logo": "/assets/projects/rushes.png"
+					"logo": "/assets/projects/rushes.png",
+					"category": [
+						"Programmation Bas Niveau",
+						"Projets 42"
+					]
 				}
 			]
 		}

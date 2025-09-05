@@ -39,14 +39,6 @@ class CollapsibleService {
 				items: data.experiences.map(this.mapExperience)
 			});
 		}
-		if (data.categories) {
-			data.categories.forEach(category => {
-				categories.push({
-					category: category.name,
-					items: category.projects.map(project => this.mapProject(project, category.name))
-				});
-			});
-		}
 
 		if (categories.length === 0) throw new Error("Invalid data structure. Expected 'certifications', 'categories', or 'experiences'.");
 		return categories;
@@ -61,18 +53,6 @@ class CollapsibleService {
 			description: cert.description,
 			details: null,
 			skills: cert.skills,
-		};
-	}
-
-	mapProject(project, categoryName) {
-		return {
-			title: project.title,
-			logo: project.logo,
-			date: project.date,
-			description: project.description,
-			details: project.detail,
-			skills: project.technologies,
-			repo: project.repo,
 		};
 	}
 
@@ -159,39 +139,44 @@ class CollapsibleService {
 	}
 
 	createCollapsibleElement(item) {
-		const { title, logo, date, description, details, skills, repo, company } = item;
-	
-		const element = document.createElement("div");
-		element.className = "collapsible collapsed";
-	
-		element.innerHTML = `
-			<h2 class="collapsible-header">
-				${logo ? `<img src="${logo}" alt="${title}" class="logo" />` : ""}
-				${title}
-			</h2>
+		const {
+			title, logo, date, description,
+			details, skills, repo, company, banner
+		} = item;
+
+		const wrapper = document.createElement("div");
+		wrapper.className = "collapsible collapsed";
+
+		const logoHTML = logo ? `<img src="${logo}" alt="${title}" class="logo" />` : "";
+		const bannerHTML = banner ? `<img src="${banner}" alt="Banner" class="banner-image" />` : "";
+		const companyHTML = company ? `<h4 class="company">${company}</h4>` : "";
+		const dateHTML = date ? `<p class="date" style="color: var(--secondary);">${date}</p>` : "";
+		const descHTML = description ? `<h4>${this.getTranslation("project")}</h4><p>${description}</p>` : "";
+		const detailsHTML = details ? `<h4>${this.getTranslation("details")}</h4><p>${details}</p>` : "";
+		const skillsHTML = skills ? `<h4>${this.getTranslation("skills")}</h4><div class="skills">${skills.map(s => `<span class="skill">${s}</span>`).join("")}</div>` : "";
+		const linkHTML = repo ? `<a href="${repo}" target="_blank" class="repo-link">${this.getTranslation("link")}</a>` : "";
+
+		wrapper.innerHTML = `
+			<h2 class="collapsible-header">${logoHTML}${title}</h2>
 			<div class="collapsible-body">
 				<div class="collapsible-content">
-					${company ? `<h4 class="company">${company}</h4>` : ""}
-					${date ? `<p class="date" style="color: var(--secondary);">${date}</p>` : ""}
-					${description ? `<h4>${this.getTranslation("project")}</h4><p class="description">${description}</p>` : ""}
-					${details ? `<h4>${this.getTranslation("details")}</h4><p class="details">${details}</p>` : ""}
-					${skills ? `<h4>${this.getTranslation("skills")}</h4><div class="skills">${skills.map(skill => `<span class="skill">${skill}</span>`).join("")}</div>` : ""}
-					${repo ? `<a href="${repo}" target="_blank" class="repo-link">${this.getTranslation("link")}</a>` : ""}
+					${companyHTML}
+					${dateHTML}
+					${bannerHTML}
+					${descHTML}
+					${detailsHTML}
+					${skillsHTML}
+					${linkHTML}
 				</div>
 			</div>
 		`;
 
-		if (!repo) {
-			const repoLink = element.querySelector(".repo-link");
-			if (repoLink) repoLink.style.display = "none";
-		}
-	
-		element.querySelector(".collapsible-header").addEventListener("click", () => {
-			element.classList.toggle("collapsed");
-			element.classList.toggle("expanded");
+		wrapper.querySelector(".collapsible-header").addEventListener("click", () => {
+			wrapper.classList.toggle("collapsed");
+			wrapper.classList.toggle("expanded");
 		});
-	
-		return element;
+
+		return wrapper;
 	}
 }
 
