@@ -1,582 +1,780 @@
 {
-	"categories": [
+	"projects": [
 		{
-			"name": "Proyectos Personales",
-			"logo": "/assets/personnal_logo.png",
-			"projects": [
-				{
-					"title": "BibleFlow",
-					"description": "Aplicación móvil Swift para la lectura de la Biblia sin conexión, multilingüe, para iOS y macOS.",
-					"detail": "BibleFlow es una aplicación móvil desarrollada en Swift que ofrece una experiencia completa de lectura de la Biblia sin necesidad de conexión a internet. Soporta múltiples idiomas para los textos bíblicos, una interfaz adaptativa compatible con iOS y macOS, y una navegación fluida entre libros, capítulos y versículos. La aplicación prioriza la accesibilidad y el rendimiento offline. Actualmente en desarrollo, el proyecto incluye gestión de diferentes traducciones, almacenamiento local de versiones de la Biblia y una interfaz moderna y responsiva basada en SwiftUI (o UIKit), con futuras funciones como búsqueda, favoritos, anotaciones y sincronización de datos entre dispositivos.",
-					"technologies": [
-						"Swift",
-						"SwiftUI",
-						"Core Data (almacenamiento local)",
-						"iOS",
-						"macOS",
-						"Multilingüe",
-						"Offline"
-					],
-					"date": "En curso",
-					"repo": null,
-					"logo": "/assets/projects/bible.png",
-					"banner": "/assets/projects/banner/bible.png",
-					"category": [
-						"IA & Datos",
-						"Programación Orientada a Objetos",
-						"Desarrollo Mobile"
-					]
-				},
-				{
-					"title": "BTCpay Server – Pagos Cripto",
-					"description": "Despliegue de un servidor BTCpay autoalojado para aceptar pagos en criptomonedas (BTC, XMR, LTC, DOGE, DASH) de manera soberana, segura y sin intermediarios.",
-					"detail": "Implementación de BTCpay Server en un servidor on-prem Debian usando Docker, con un reverse proxy seguro y acceso remoto protegido. Configuración de monederos para varias criptomonedas (Bitcoin, Monero, Litecoin, Dogecoin, Dash), generación de facturas dinámicas, integración de un nodo completo para cada una y gestión de claves local sin terceros de confianza. Este proyecto refuerza la autonomía financiera y pone en práctica conceptos avanzados de descentralización, seguridad y soberanía digital. Se presta especial atención a la resiliencia de la infraestructura, la seguridad de red y la experiencia de usuario tanto para comerciantes como para clientes.",
-					"technologies": [
-						"Debian",
-						"Docker",
-						"Docker Compose",
-						"BTCpay Server",
-						"Nginx Reverse Proxy",
-						"Bitcoin Full Node",
-						"XMR Wallet",
-						"LTC Wallet",
-						"DOGE Wallet",
-						"DASH Wallet",
-						"Tailscale",
-						"Autoalojamiento",
-						"Seguridad de red",
-						"Criptomonedas"
-					],
-					"date": "Junio 2025",
-					"repo": null,
-					"logo": "/assets/projects/crypto.png",
-					"banner": "/assets/projects/banner/btcpay.png",
-					"category": [
-						"Sistemas & DevOps",
-						"Ciberseguridad & Red"
-					]
-				},
-				{
-					"title": "HomeLab Personal",
-					"description": "Despliegue de un HomeLab completo en servidor Debian con servicios IA, DevOps, virtualización y seguridad mediante VPN privada.",
-					"detail": "Instalación y configuración de un servidor Debian en una máquina física reciclada para alojar un HomeLab personal usando CasaOS. Implementación de Tailscale para acceso remoto seguro y cifrado. Despliegue y gestión de servicios avanzados mediante Docker: chatbot IA local (Ollama CPU + Open WebUI), entorno de desarrollo (VSCode Server), herramientas de productividad (Ghostfolio, Wallos, LibreTranslate, Stirling PDF, ConvertX, IT Tools), reproductor multimedia (Navidrome), escritorio remoto (Webtop) y un YouTube Downloader desarrollado a medida. Centralización de logs con Dozzle. Todos los servicios están en contenedores, aislados y accesibles solo por VPN. Este proyecto aplica buenas prácticas de administración de sistemas, seguridad de red, virtualización y DevOps, aprovechando herramientas modernas en autoalojamiento.",
-					"technologies": [
-						"Debian",
-						"CasaOS",
-						"Docker",
-						"Docker Compose",
-						"Reverse Proxy",
-						"Ollama",
-						"Open WebUI",
-						"VSCode Server",
-						"Gitea",
-						"Dozzle",
-						"Tailscale",
-						"Telegram Bot API",
-						"Wallos",
-						"Ghostfolio",
-						"LibreTranslate",
-						"Stirling PDF",
-						"Excalidraw",
-						"KASM Workspaces",
-						"Seguridad de red",
-						"Monitorización local"
-					],
-					"date": "Abril 2025",
-					"repo": null,
-					"logo": "/assets/projects/homelab.png",
-					"banner": "/assets/projects/banner/homelab.png",
-					"category": [
-						"Sistemas & DevOps",
-						"Ciberseguridad & Red"
-					]
-				},
-				{
-					"title": "Bot de Trading Automatizado",
-					"description": "Desarrollo de un bot de trading cripto usando Freqtrade, una estrategia DCA personalizada y una interfaz UI accesible mediante Cloudflare Tunnel.",
-					"detail": "Creación de un bot de trading automatizado basado en Freqtrade, integrando una estrategia avanzada de DCA (Dollar-Cost Averaging) optimizada para un rendimiento anual mínimo del 15%. El bot monitoriza tendencias del mercado y ejecuta órdenes de compra y venta inteligentes según indicadores técnicos. Los resultados han sido validados mediante backtests en varios años: 2022 (15.05%), 2023 (17.83%) y 2024 (16.42%). La aplicación se despliega en un servidor Linux on-premise, garantizando control total sobre la infraestructura. La virtualización mediante Docker asegura aislamiento óptimo de servicios y facilita actualizaciones y escalabilidad. Una interfaz de usuario vía Freqtrade UI permite seguir en tiempo real las posiciones abiertas, el rendimiento y el historial de transacciones. Se implementó un túnel Cloudflare para asegurar el acceso remoto a la interfaz y garantizar una gestión fluida del bot, sin exposición directa a Internet.",
-					"technologies": [
-						"Python",
-						"Freqtrade",
-						"PostgreSQL",
-						"Docker",
-						"Binance API",
-						"Pandas",
-						"NumPy",
-						"Telegram Bot API",
-						"Freqtrade UI",
-						"Cloudflare Tunnel",
-						"Reverse Proxy",
-						"Raspberry Pi",
-						"Virtualización"
-					],
-					"date": "Febrero 2025",
-					"repo": null,
-					"logo": "/assets/projects/cryptobot.png",
-					"banner": "/assets/projects/banner/bot.png",
-					"category": [
-						"IA & Datos",
-						"Sistemas & DevOps"
-					]
-				},
-				{
-					"title": "Sitio Web de Portafolio",
-					"description": "Creación de un portafolio interactivo para mostrar mis logros.",
-					"detail": "Desarrollo de un sitio web interactivo para presentar mis proyectos profesionales y personales. El sitio está alojado en Azure Static Web Apps para un rendimiento óptimo y una gestión simplificada de despliegues. El dominio es gestionado por Infomaniak. Se utiliza un servicio de enrutamiento personalizado en JavaScript puro para una navegación fluida entre las diferentes secciones del sitio y asegurar el principio de Single Page Application. El diseño es minimalista y moderno gracias al uso de picoCSS.",
-					"technologies": [
-						"HTML",
-						"CSS",
-						"JavaScript",
-						"Azure Static Web Apps",
-						"picoCSS",
-						"Github CI/CD"
-					],
-					"date": "Noviembre 2024",
-					"repo": "https://github.com/aceyzz/personnal_portfolio",
-					"logo": "/assets/projects/portfolio.png",
-					"banner": "/assets/projects/banner/portfolio.png",
-					"category": [
-						"Desarrollo Web"
-					]
-				}
+			"title": "matt-daemon",
+			"description": "Implementación en C++11 de un verdadero daemon UNIX: ejecución en segundo plano con privilegios root, escucha en el puerto 4242 y gestión concurrente limitada a tres clientes. Cada acción, mensaje o señal se registra con marca de tiempo en /var/log/matt_daemon/, asegurando trazabilidad y robustez del sistema.",
+			"detail": "Proyecto introductorio a los procesos daemonizados en Linux. El programa MattDaemon funciona como un servicio de red autónomo: inicialización segura (fork, setsid, flock), socket de escucha persistente, gestión adecuada de señales y bloqueo vía /var/lock/matt_daemon.lock. Las interacciones con los clientes se registran, el comando quit provoca una parada controlada. La arquitectura se basa en clases modulares (gestión de archivos, logger Tintin_reporter, servidor, daemonizer) probadas en Debian vía Docker con volúmenes persistentes para los logs.",
+			"technologies": [
+				"Linux",
+				"C++",
+				"Daemon",
+				"Make"
+			],
+			"date": "Noviembre 2025",
+			"repo": "https://github.com/aceyzz/matt-daemon",
+			"logo": "/assets/projects/cplusplus.png",
+			"banner": "/assets/projects/banner/matt-daemon.png",
+			"category": [
+				"Proyectos 42",
+				"Sistemas & DevOps",
+				"Programación Orientada a Objetos"
 			]
 		},
 		{
-			"name": "42 - Especializaciones",
-			"logo": "/assets/42_logo.png",
-			"projects": [
-				{
-					"title": "Inception of Things",
-					"description": "Proyecto de iniciación a Kubernetes con Vagrant, K3s, K3d y GitOps (Argo CD), desarrollado en el marco de la escuela 42.",
-					"detail": "Este proyecto tiene como objetivo familiarizarse con Kubernetes desde el punto de vista del desarrollador. Comienza con la creación de una o varias máquinas virtuales usando Vagrant (parte 1). Luego, se despliega un clúster K3s y se ejecutan varias aplicaciones con un Ingress (parte 2). La última etapa implica K3d junto con Argo CD para implementar integración y despliegue continuo directamente desde un repositorio de GitHub (parte 3). Una parte opcional consiste en integrar GitLab + CI/CD con Argo CD para sincronizar automáticamente las aplicaciones en el clúster.",
-					"technologies": [
-						"Vagrant",
-						"K3s",
-						"K3d",
-						"Kubernetes",
-						"Ingress",
-						"Docker",
-						"Argo CD",
-						"GitOps",
-						"CI/CD",
-						"GitLab"
-					],
-					"date": "Septiembre 2025",
-					"repo": "https://github.com/aceyzz/inception-of-things",
-					"logo": "/assets/projects/iot.png",
-					"banner": "/assets/projects/banner/iot.png",
-					"category": [
-						"Proyectos 42",
-						"Sistemas & DevOps"
-					]
-				},
-				{
-					"title": "Cloud-1",
-					"description": "Implementación de un entorno WordPress completo con Docker Compose en Azure.",
-					"detail": "Este proyecto consiste en crear un entorno WordPress completo usando contenedores Docker para WordPress, MariaDB, phpMyAdmin y Nginx, desplegados en una VM de Azure. Los contenedores se orquestan con Docker Compose y se automatizan mediante Ansible para el despliegue y la configuración. El entorno utiliza certificados SSL para asegurar las conexiones y garantiza la persistencia de datos para MariaDB y WordPress.",
-					"technologies": [
-						"Docker",
-						"Docker Compose",
-						"Ansible",
-						"Azure",
-						"WordPress",
-						"MariaDB",
-						"phpMyAdmin",
-						"Nginx",
-						"SSL"
-					],
-					"date": "Noviembre 2024",
-					"repo": "https://github.com/aceyzz/cloud-1",
-					"logo": "/assets/projects/cloud-1.png",
-					"banner": "/assets/projects/banner/cloud-1.png",
-					"category": [
-						"Sistemas & DevOps",
-						"Proyectos 42"
-					]
-				},
-				{
-					"title": "Swifty-Companion",
-					"description": "Aplicación iOS en SwiftUI que utiliza la API de 42 para mostrar información sobre un estudiante.",
-					"detail": "Swifty-Companion es un proyecto móvil realizado en el marco de la escuela 42. Es una aplicación iOS desarrollada en SwiftUI que consume la API oficial de 42 mediante OAuth2 (Intranet) para mostrar dinámicamente los datos de un usuario. La app incluye una vista de inicio con un campo de búsqueda (login 42), una vista de perfil del estudiante (login, nivel, localización en la escuela, coalición, proyectos realizados, competencias, foto de perfil), una arquitectura reactiva adaptada a varios tamaños de pantalla y una gestión robusta de errores (login no encontrado, API no disponible, problemas de red o autenticación). Se pueden añadir extras como la actualización automática del token OAuth2 al expirar y la reconexión automática si la parte obligatoria es perfecta. Todo sigue buenas prácticas de seguridad, incluyendo el uso de `.env` ignorado para las claves API.",
-					"technologies": [
-						"Swift",
-						"SwiftUI",
-						"OAuth2",
-						"REST API",
-						"Responsive UI",
-						"iOS"
-					],
-					"date": "En curso",
-					"repo": "https://github.com/aceyzz/swifty-companion",
-					"logo": "/assets/projects/swifty.png",
-					"banner": "/assets/projects/banner/swifty.png",
-					"category": [
-						"Proyectos 42",
-						"Desarrollo Mobile",
-						"Programación Orientada a Objetos"
-					]
-				}
+			"title": "little-penguin-1",
+			"description": "Serie de ejercicios de desarrollo de kernel Linux: compilar y arrancar el kernel de Linus, escribir/adaptar módulos, automatizar con udev, exponer interfaces (misc, debugfs) y producir pruebas reproducibles.",
+			"detail": "Recorrido práctico de desarrollo de kernel: compilación/arranque de kernels (mainline & linux-next), escritura de módulos y drivers simples, integración con userspace (udev, procfs, debugfs, misc). Objetivos: dominar el toolchain y el flujo de trabajo del kernel (config, build, patch), aplicar estrictamente el Linux Kernel Coding Style y producir pruebas reproducibles (logs, parches). Proyecto centrado en mecanismos de bajo nivel y las interfaces kernel↔espacio de usuario, sin capas adicionales.",
+			"technologies": [
+				"Linux",
+				"C",
+				"Bash",
+				"Make",
+				"GRUB",
+				"Systemd / SysV"
+			],
+			"date": "Octubre 2025",
+			"repo": "https://github.com/aceyzz/little-penguin-1",
+			"logo": "/assets/projects/linux.png",
+			"banner": "/assets/projects/banner/little-penguin-1.png",
+			"category": [
+				"Proyectos 42",
+				"Sistemas & DevOps",
+				"Programación Bajo Nivel"
 			]
 		},
 		{
-			"name": "42 - Common Core",
-			"logo": "/assets/42_logo.png",
-			"projects": [
-				{
-					"title": "Libft",
-					"description": "Recrear las funciones principales de la biblioteca estándar de C.",
-					"detail": "Desarrollo de una biblioteca personal recreando varias funciones esenciales de la biblioteca estándar de C, con enfoque en buenas prácticas y gestión eficiente de memoria.",
-					"technologies": [
-						"C",
-						"Makefile"
-					],
-					"date": "Octubre 2023",
-					"repo": "https://github.com/aceyzz/Libft",
-					"logo": "/assets/projects/libft.png",
-					"banner": "/assets/projects/banner/libft.png",
-					"category": [
-						"Programación de Bajo Nivel",
-						"Proyectos 42"
-					]
-				},
-				{
-					"title": "Get Next Line",
-					"description": "Leer una línea de un archivo de manera optimizada.",
-					"detail": "Creación de una función capaz de leer línea por línea desde un archivo o entrada estándar, usando buffers para optimizar el rendimiento.",
-					"technologies": [
-						"C"
-					],
-					"date": "Noviembre 2023",
-					"repo": "https://github.com/aceyzz/Get_next_line",
-					"logo": "/assets/projects/gnl.png",
-					"banner": "/assets/projects/banner/gnl.png",
-					"category": [
-						"Programación de Bajo Nivel",
-						"Proyectos 42"
-					]
-				},
-				{
-					"title": "Ft_printf",
-					"description": "Reproducir la función printf de la biblioteca estándar de C.",
-					"detail": "Desarrollo de una versión personalizada de la función printf, soportando varios formatos y especificaciones, gestionando eficientemente la memoria.",
-					"technologies": [
-						"C"
-					],
-					"date": "Noviembre 2023",
-					"repo": "https://github.com/aceyzz/Ft_printf",
-					"logo": "/assets/projects/printf.png",
-					"banner": "/assets/projects/banner/ftprintf.png",
-					"category": [
-						"Programación de Bajo Nivel",
-						"Proyectos 42"
-					]
-				},
-				{
-					"title": "Born2BeRoot",
-					"description": "Configurar una máquina virtual segura.",
-					"detail": "Instalación y configuración de una máquina virtual segura basada en Debian. Este proyecto cubre varios aspectos esenciales de la gestión de sistemas, incluyendo la descarga e instalación de la máquina virtual, la configuración inicial, la conexión vía SSH y la implementación de políticas de seguridad estrictas. Los conceptos incluyen virtualización con VirtualBox, gestión de permisos y usuarios, instalación y configuración de servicios esenciales como SSH y UFW, así como la implementación de políticas de contraseñas robustas y registros de seguridad.",
-					"technologies": [
-						"Linux",
-						"VirtualBox",
-						"Debian",
-						"SSH",
-						"UFW",
-						"Sudo",
-						"Crontab"
-					],
-					"date": "Noviembre 2023",
-					"repo": "https://github.com/aceyzz/Born2beRoot",
-					"logo": "/assets/projects/b2r.png",
-					"banner": "/assets/projects/banner/b2r.png",
-					"category": [
-						"Sistemas & DevOps",
-						"Ciberseguridad & Red",
-						"Proyectos 42"
-					]
-				},
-				{
-					"title": "Push_Swap",
-					"description": "Implementar un algoritmo de ordenamiento con un número limitado de operaciones.",
-					"detail": "El proyecto push_swap consiste en desarrollar un programa en C que toma una lista de enteros como argumento de línea de comandos y muestra una secuencia de operaciones para ordenar esos enteros de manera óptima. El programa utiliza dos pilas, 'a' y 'b', y un conjunto limitado de operaciones de manipulación de pilas para ordenar los enteros. Las operaciones permitidas incluyen swaps, rotaciones y operaciones de empuje entre pilas. El objetivo es minimizar el número total de operaciones realizadas para ordenar la pila.",
-					"technologies": [
-						"C"
-					],
-					"date": "Noviembre 2023",
-					"repo": "https://github.com/aceyzz/Push_swap",
-					"logo": "/assets/projects/pushswap.png",
-					"banner": "/assets/projects/banner/pushswap.png",
-					"category": [
-						"Programación de Bajo Nivel",
-						"Proyectos 42"
-					]
-				},
-				{
-					"title": "Minitalk",
-					"description": "Creación de una aplicación cliente-servidor para intercambiar mensajes mediante señales Unix.",
-					"detail": "Desarrollo de un sistema de comunicación cliente-servidor simple usando señales Unix como medio de transmisión. El cliente envía un mensaje al servidor, que lo recibe y lo muestra. El cliente convierte cada carácter del mensaje en una secuencia de bits y los envía al servidor usando las señales SIGUSR1 y SIGUSR2. El servidor reconstruye el mensaje a partir de los bits recibidos y lo muestra. El servidor confirma la recepción de cada mensaje enviando una señal al cliente. El proyecto incluye funcionalidades extra como soporte para caracteres Unicode.",
-					"technologies": [
-						"C",
-						"Unix",
-						"Señales"
-					],
-					"date": "Noviembre 2023",
-					"repo": "https://github.com/aceyzz/Minitalk",
-					"logo": "/assets/projects/minitalk.png",
-					"banner": "/assets/projects/banner/minitalk.png",
-					"category": [
-						"Programación de Bajo Nivel",
-						"Proyectos 42"
-					]
-				},
-				{
-					"title": "So_Long",
-					"description": "Desarrollo de un juego 2D en C basado en una biblioteca gráfica.",
-					"detail": "Bienvenido a So_Long, un proyecto de juego 2D desarrollado en C como parte de un programa de aprendizaje de programación. Este proyecto se centra en la creación de un juego simple usando la biblioteca gráfica MinilibX. El objetivo es construir un juego donde un jugador se mueve por un mapa, recoge objetos, evita obstáculos y llega a la salida. El juego implica gestión de entradas de usuario, renderizado gráfico y gestión de elementos del juego como el jugador, objetos, obstáculos y la salida. El proyecto incluye gestión de eventos, animaciones e interacciones con el entorno.",
-					"technologies": [
-						"C",
-						"MinilibX",
-						"Gráficos"
-					],
-					"date": "Noviembre 2023",
-					"repo": "https://github.com/aceyzz/So_long",
-					"logo": "/assets/projects/solong.png",
-					"banner": "/assets/projects/banner/solong.png",
-					"category": [
-						"Programación de Bajo Nivel",
-						"Proyectos 42"
-					]
-				},
-				{
-					"title": "Philosophers",
-					"description": "Simulación de un problema clásico de algoritmos en multithreading.",
-					"detail": "Este programa implementa la simulación del clásico problema de los filósofos comensales usando hilos y mutex en C. La simulación implica que los filósofos alternan entre comer, pensar y dormir. Usan tenedores para comer y los devuelven a la mesa al terminar. Los filósofos nunca deben morir de hambre, y la simulación termina cuando uno muere de hambre. El programa debe escribirse sin variables globales y debe aceptar argumentos como el número de filósofos, límites de tiempo para comer, dormir y morir, y un argumento opcional para el número de comidas que cada filósofo debe tomar antes de que la simulación termine. El programa también debe registrar eventos y asegurar que los filósofos eviten morir. Puede implementarse con hilos y mutex, o con procesos y semáforos (en mi caso, hilos & mutex).",
-					"technologies": [
-						"C",
-						"Multithreading"
-					],
-					"date": "Diciembre 2023",
-					"repo": "https://github.com/aceyzz/Philosophers",
-					"logo": "/assets/projects/philo.png",
-					"banner": null,
-					"category": [
-						"Programación de Bajo Nivel",
-						"Proyectos 42"
-					]
-				},
-				{
-					"title": "Minishell",
-					"description": "Creación de un shell minimalista inspirado en Bash.",
-					"detail": "En nuestro proyecto 'Minishell' en la escuela 42, desarrollamos un programa de shell simplificado. Este desafío es crucial para nuestra comprensión de procesos y descriptores de archivos. Nuestro objetivo es crear una versión minimalista de bash, sumergiéndonos en los matices de la programación de shells. Nos enfocamos en aspectos fundamentales como la gestión de entradas de comandos, manipulación de directorios, interpretación de variables de entorno e implementación de funcionalidades esenciales como gestión de señales y ejecución de comandos. Este proyecto representa un paso importante hacia una comprensión profunda de la programación de sistemas, brindándonos experiencia práctica en conceptos clave usados en entornos Unix/Linux.",
-					"technologies": [
-						"C",
-						"Unix",
-						"Shell"
-					],
-					"date": "Enero 2024",
-					"repo": "https://github.com/aceyzz/Minishell",
-					"logo": "/assets/projects/shell.png",
-					"banner": "/assets/projects/banner/minishell.png",
-					"category": [
-						"Programación de Bajo Nivel",
-						"Proyectos 42"
-					]
-				},
-				{
-					"title": "Cub3D",
-					"description": "Desarrollo de un juego 3D inspirado en Wolfenstein 3D con ray-casting.",
-					"detail": "Este proyecto consiste en crear un juego 3D en primera persona usando la técnica de ray-casting para renderizar un laberinto. El juego se desarrolla con la biblioteca gráfica MiniLibX e incluye funcionalidades como movimiento del jugador, disparos y gestión de texturas.",
-					"technologies": [
-						"C",
-						"MiniLibX",
-						"Ray-casting"
-					],
-					"date": "Enero 2024",
-					"repo": "https://github.com/aceyzz/cub3d",
-					"logo": "/assets/projects/cube.png",
-					"banner": "/assets/projects/banner/cub3d.png",
-					"category": [
-						"Programación de Bajo Nivel",
-						"Proyectos 42"
-					]
-				},
-				{
-					"title": "NetPractice",
-					"description": "Aprendizaje de los conceptos fundamentales de redes.",
-					"detail": "El proyecto NetPractice es un desafío apasionante propuesto por la escuela 42 que busca profundizar y poner en práctica mis habilidades en redes informáticas. Este proyecto es una oportunidad única para sumergirme en el mundo complejo y fascinante de las redes, aprendiendo a manipular, configurar y resolver problemas en entornos reales y simulados. Los objetivos incluyen comprender los fundamentos de redes, incluyendo los modelos OSI y TCP/IP, dominar la configuración y gestión de dispositivos de red como switches y routers, y aplicar técnicas de troubleshooting para identificar y resolver problemas de red.",
-					"technologies": [
-						"Redes",
-						"Modelo OSI",
-						"TCP/IP",
-						"Switches",
-						"Routers",
-						"Resolución de problemas"
-					],
-					"date": "Febrero 2024",
-					"repo": "https://github.com/aceyzz/NetPractice",
-					"logo": "/assets/projects/ip.png",
-					"banner": "/assets/projects/banner/netpractice.png",
-					"category": [
-						"Ciberseguridad & Red",
-						"Proyectos 42"
-					]
-				},
-				{
-					"title": "Piscina C++ (parte 1)",
-					"description": "Introducción a la programación orientada a objetos en C++.",
-					"detail": "Descubrimiento de las bases de la programación orientada a objetos con C++. Enfoque en clases, objetos y modularidad. Comprensión del polimorfismo ad-hoc, sobrecargas y clases canónicas ortodoxas en C++. Aprendizaje de asignación de memoria, referencias, punteros a miembros y uso de switch en C++. Exploración de las especificidades de C++ respecto a C, con una inmersión en la programación orientada a objetos. Estudio del polimorfismo de subtipo, clases abstractas e interfaces en C++. Comprensión de la herencia en C++ y sus implicaciones para el diseño de software robusto y modular.",
-					"technologies": [
-						"C++"
-					],
-					"date": "Marzo 2024",
-					"repo": "https://github.com/aceyzz/CPP-Part.1",
-					"logo": "/assets/projects/cplusplus.png",
-					"banner": "/assets/projects/banner/cpp1.png",
-					"category": [
-						"Programación Orientada a Objetos",
-						"Proyectos 42"
-					]
-				},
-				{
-					"title": "Piscina C++ (parte 2)",
-					"description": "Profundización en conceptos avanzados de C++.",
-					"detail": "Profundización en funcionalidades avanzadas de C++ como templates, diferentes tipos de cast, uso de contenedores estándar (STL), 'template containers', iteradores y 'algorithms', así como gestión de excepciones con bloques Try/Catch. El proyecto también incluye implementación de conceptos de programación genérica, manejo de punteros inteligentes y optimización del rendimiento mediante técnicas avanzadas de gestión de memoria.",
-					"technologies": [
-						"C++"
-					],
-					"date": "Marzo 2024",
-					"repo": "https://github.com/aceyzz/CPP-Part.2",
-					"logo": "/assets/projects/cplusplus.png",
-					"banner": "/assets/projects/banner/cpp2.png",
-					"category": [
-						"Programación Orientada a Objetos",
-						"Proyectos 42"
-					]
-				},
-				{
-					"title": "Inception",
-					"description": "Despliegue de una infraestructura web compleja y segura con Docker.",
-					"detail": "Como parte de nuestro curso en la escuela 42, abordamos el proyecto titulado 'Inception'. Este ambicioso proyecto busca profundizar y poner en práctica los conocimientos adquiridos en virtualización y gestión de contenedores. Nuestro objetivo es desplegar una infraestructura compleja y segura, completamente configurada con Docker y orquestada por docker-compose, todo en una máquina virtual dedicada. La arquitectura incluye varios componentes clave: un contenedor Docker con NGINX, un contenedor dedicado a WordPress + php-fpm, un contenedor para MariaDB, dos volúmenes distintos para la base de datos y los archivos del sitio web, y una red Docker específica para la comunicación entre contenedores. Los contenedores deben construirse a partir de Dockerfiles personalizados, sin usar imágenes preconstruidas ni servicios como DockerHub.",
-					"technologies": [
-						"Docker",
-						"WordPress",
-						"MariaDB",
-						"php-fpm",
-						"Nginx",
-						"TLS",
-						"Docker Compose",
-						"Virtualización"
-					],
-					"date": "Marzo 2024",
-					"repo": "https://github.com/aceyzz/Inception",
-					"logo": "/assets/projects/inception.png",
-					"banner": "/assets/projects/banner/inception.png",
-					"category": [
-						"Sistemas & DevOps",
-						"Ciberseguridad & Red",
-						"Proyectos 42"
-					]
-				},
-				{
-					"title": "Webserv",
-					"description": "Implementación de un servidor web en C++ cumpliendo el protocolo HTTP.",
-					"detail": "El proyecto Webserv de la escuela 42 consiste en implementar un servidor web en C++ bajo el estándar C++98. Este servidor debe ser capaz de servir archivos estáticos y gestionar peticiones CGI. También debe manejar múltiples conexiones simultáneas, archivos grandes de manera asíncrona y no bloqueante. Además, el servidor debe soportar los métodos HTTP GET, POST y DELETE, así como peticiones CGI para GET y POST. Debe gestionar errores y devolver los códigos de estado HTTP apropiados. El servidor también debe manejar peticiones con headers y bodies grandes, con un límite definido en el archivo de configuración. El comportamiento de referencia para este proyecto es el de Nginx.",
-					"technologies": [
-						"C++",
-						"Redes",
-						"HTTP",
-						"CGI",
-						"I/O Asíncrono",
-						"SSL"
-					],
-					"date": "Agosto 2024",
-					"repo": "https://github.com/aceyzz/webserv",
-					"logo": "/assets/projects/web.png",
-					"banner": "/assets/projects/banner/webserv.png",
-					"category": [
-						"Desarrollo Web",
-						"Programación Orientada a Objetos",
-						"Proyectos 42"
-					]
-				},
-				{
-					"title": "Ft_Transcendence",
-					"description": "Desarrollo de una aplicación web completa para un juego multijugador en línea.",
-					"detail": "Creación de una plataforma web para un juego multijugador en tiempo real, incluyendo WebSocket. El proyecto incluye gestión de usuarios, soporte multijugador local y remoto, sistema de torneos, tablas de estadísticas y medidas de seguridad avanzadas como hash de contraseñas y protección contra ataques XSS/SQL Injection. El backend es gestionado por un módulo web personalizado, la base de datos está integrada y el frontend usa JavaScript con un toolkit moderno. La aplicación es una SPA compatible con Chrome, sin errores de consola, y se lanza con un solo comando.",
-					"technologies": [
-						"HTML",
-						"CSS",
-						"JavaScript",
-						"Django",
-						"WebSocket",
-						"PostgreSQL",
-						"Docker",
-						"Modsecurity",
-						"Nginx",
-						"HashiCorp Vault"
-					],
-					"date": "Octubre 2024",
-					"repo": "https://github.com/aceyzz/ft_transcendence",
-					"logo": "/assets/projects/pong.png",
-					"banner": "/assets/projects/banner/transcendence.png",
-					"category": [
-						"Desarrollo Web",
-						"Ciberseguridad & Red",
-						"Proyectos 42"
-					]
-				}
+			"title": "ft_linux",
+			"description": "Recrear una distribución Linux desde cero: compilar e instalar un kernel, preparar las particiones, el userspace y un sistema booteable.",
+			"detail": "Preparar un entorno de compilación, crear las particiones (/boot, /, swap), compilar un toolchain y construir un sistema mínimo. Compilar e instalar un kernel Linux (versión ≥ 4.0), instalación de las fuentes, configurar udev, instalar un bootloader, implementar un init (SysV o systemd) y asegurar que la máquina arranca correctamente. Todos los requisitos del proyecto respetados al pie de la letra (particiones, nombres, rutas, udev presente, hostname). El trabajo es reproducible en VM, acompañado de un Makefile / scripts y documentación de compilación.",
+			"technologies": [
+				"Linux",
+				"C (compilación kernel)",
+				"Bash",
+				"Make",
+				"GRUB",
+				"Systemd / SysV",
+				"Ext4 (particiones)",
+				"Toolchain (gcc/ld/binutils)"
+			],
+			"date": "Octubre 2025",
+			"repo": "https://github.com/aceyzz/ft_linux",
+			"logo": "/assets/projects/linux.png",
+			"banner": "/assets/projects/banner/ft_linux.png",
+			"category": [
+				"Proyectos 42",
+				"Sistemas & DevOps",
+				"Programación Bajo Nivel"
 			]
 		},
 		{
-			"name": "42 - Piscina",
-			"logo": "/assets/42_logo.png",
-			"projects": [
-				{
-					"title": "Módulos Shell",
-					"description": "Introducción a los scripts de shell y gestión de comandos Unix.",
-					"detail": "Este proyecto explora las bases del scripting de shell, los comandos esenciales de Unix y su uso en un entorno Linux. El objetivo es aprender a automatizar tareas comunes.",
-					"technologies": [
-						"Scripting de shell",
-						"Unix"
-					],
-					"date": "Septiembre 2023",
-					"repo": "https://github.com/aceyzz/42-Piscine/tree/main/shell_modules",
-					"logo": "/assets/projects/modules_shell.png",
-					"category": [
-						"Programación de Bajo Nivel",
-						"Proyectos 42"
-					]
-				},
-				{
-					"title": "Módulos C",
-					"description": "Primeros pasos en el lenguaje C, lógica y algoritmos simples.",
-					"detail": "Aprendizaje de las bases del lenguaje C, incluyendo estructuras de datos, bucles y funciones. Los proyectos también enfatizan la lógica algorítmica y las herramientas de compilación.",
-					"technologies": [
-						"C"
-					],
-					"date": "Septiembre 2023",
-					"repo": "https://github.com/aceyzz/42-Piscine/tree/main/c_modules",
-					"logo": "/assets/projects/modules_c.png",
-					"category": [
-						"Programación de Bajo Nivel",
-						"Proyectos 42"
-					]
-				},
-				{
-					"title": "Rushes",
-					"description": "Desafíos intensivos en equipo para resolver problemas complejos.",
-					"detail": "Trabajo colaborativo en desafíos complejos con plazos cortos, orientado a mejorar habilidades de resolución de problemas y comunicación en equipo.",
-					"technologies": [
-						"C",
-						"Trabajo colaborativo"
-					],
-					"date": "Septiembre 2023",
-					"repo": "https://github.com/aceyzz/42-Piscine/tree/main/rushes",
-					"logo": "/assets/projects/rushes.png",
-					"category": [
-						"Programación de Bajo Nivel",
-						"Proyectos 42"
-					]
-				}
+			"title": "ft_ssl_md5",
+			"description": "Implementación en C de los algoritmos de hash MD5 y SHA-256: lectura desde archivos o stdin, formato de salida compatible con OpenSSL.",
+			"detail": "Crear un programa ft_ssl capaz de cifrar en MD5 y SHA-256 sobre archivos o la entrada estándar. Respeto de los formatos de salida impuestos (echo/print style, flags -p/-q/-r/-s), gestionar el padding, el corte en bloques, el endianess, y producir resultados idénticos a OpenSSL/sha256sum/md5sum. Código robusto (gestión de errores, archivos faltantes), optimizado y cubierto por pruebas unitarias comparativas contra las herramientas estándar. La realización demuestra comprensión de operaciones bit a bit, constantes del estándar y la estructura de los algoritmos de hash.",
+			"technologies": [
+				"C",
+				"Operaciones bit a bit",
+				"Algoritmos de hash",
+				"Linux",
+				"File IO",
+				"MD5",
+				"SHA-256",
+				"OpenSSL",
+				"Make"
+			],
+			"date": "Octubre 2025",
+			"repo": "https://github.com/aceyzz/ft_ssl_md5",
+			"logo": "/assets/projects/ssl.png",
+			"banner": "/assets/projects/banner/ft_ssl_md5.png",
+			"category": [
+				"Programación Bajo Nivel",
+				"Ciberseguridad & Red",
+				"Proyectos 42"
+			]
+		},
+		{
+			"title": "ft_malcolm",
+			"description": "Implementación mínima de ARP spoofing en C: escucha de una solicitud ARP broadcast de la víctima para la IP origen, envío de una única respuesta ARP falsificada. Proyecto realizado para comprender la capa 2/Ethernet, ARP (RFC 826) y el ataque Man In The Middle básico.",
+			"detail": "Proyecto introductorio a la ciberseguridad. El programa toma 4 argumentos obligatorios en este orden: IP origen, MAC origen, IP destino, MAC destino. Espera específicamente una solicitud ARP broadcast emitida por la víctima preguntando por la IP origen, luego forja y envía una sola respuesta ARP (Ethernet+ARP) hacia la víctima antes de salir correctamente. El programa gestiona errores, señales y respeta las restricciones de programación de bajo nivel. Implementación: selección automática de la interfaz desde la IP origen, validación estricta del paquete recibido, construcción de una respuesta empaquetada (sha/spa/tha/tpa) y envío dirigido; logs legibles, modo verbose con volcado hexadecimal, Makefile y laboratorio Docker (atacante/víctima + tcpdump/wireshark) para la demo.",
+			"technologies": [
+				"C",
+				"Ethernet (L2)",
+				"Linux",
+				"Sockets brutos y filtrado",
+				"ARP (RFC 826)",
+				"Docker & Docker Compose",
+				"Wireshark",
+				"Ataque MITM"
+			],
+			"date": "Octubre 2025",
+			"repo": "https://github.com/aceyzz/ft_malcolm",
+			"logo": "/assets/projects/malcolm.png",
+			"banner": "/assets/projects/banner/malcolm.png",
+			"category": [
+				"Ciberseguridad & Red",
+				"Programación Bajo Nivel",
+				"Proyectos 42"
+			]
+		},
+		{
+			"title": "ft_linear_regression",
+			"description": "Implementación de una regresión lineal (descenso de gradiente) para estimar el precio de un coche según el kilometraje, con programas de entrenamiento y predicción, visualizaciones y métricas.",
+			"detail": "Proyecto introductorio de machine learning que consiste en entrenar un modelo de regresión lineal simple sobre un dataset km/precio y predecir un precio a partir de un kilometraje dado. El tema 42 exige dos programas distintos (train & predict), el uso de descenso de gradiente y la prohibición de bibliotecas que hagan 'todo el trabajo', con bonus como el trazado de datos/de la recta y cálculo de precisión. Implementación: parsing robusto de CSV con validaciones (dataset inmutable, gestión de líneas vacías/errores), normalización min-max de la feature, entrenamiento por descenso de gradiente con logs periódicos, tolerancia de convergencia y salvaguardas anti-divergencia, guardado de parámetros en un JSON (`theta0`, `theta1`, `x_min`, `x_max`) y predictor interactivo en CLI. Un módulo de evaluación calcula MAE/RMSE/MSE/R² y un bonus opcional muestra un gráfico Matplotlib (puntos, línea del modelo, zona de validez y anotación de la predicción).",
+			"technologies": [
+				"Python 3",
+				"CLI",
+				"Matplotlib",
+				"CSV",
+				"JSON",
+				"Dataclasses",
+				"Regresión lineal",
+				"Descenso de gradiente",
+				"Normalización Min-Max",
+				"MAE / MSE / RMSE / R²"
+			],
+			"date": "Octubre 2025",
+			"repo": "https://github.com/aceyzz/ft_linear_regression",
+			"logo": "/assets/projects/ftlr.png",
+			"banner": "/assets/projects/banner/ftlr.png",
+			"category": [
+				"IA & Datos",
+				"Proyectos 42"
+			]
+		},
+		{
+			"title": "Swifty-Proteins",
+			"description": "Aplicación iOS/macOS en SwiftUI para visualizar proteínas 3D de la Protein Data Bank, con autenticación biométrica.",
+			"detail": "Swifty-Proteins es un proyecto móvil avanzado de la escuela 42 que introduce el renderizado 3D y frameworks móviles modernos. La app consume la base de datos PDB (Protein Data Bank) para mostrar moléculas y ligandos en 3D con SceneKit. Incluye autenticación biométrica (TouchID/FaceID), gestión de usuarios (creación y login), lista de ligandos con motor de búsqueda, visualizador 3D interactivo (zoom, rotación, tooltip de información sobre átomos, coloración CPK, representación Ball-and-Stick), y funciones de compartir socialmente. Bonus permiten añadir otros estilos de visualización o modelos alternativos. El proyecto combina biología estructural y desarrollo móvil nativo para crear una experiencia interactiva y educativa.",
+			"technologies": [
+				"Swift",
+				"SwiftUI",
+				"iOS",
+				"macOS",
+				"SceneKit",
+				"CoreData",
+				"Keychain",
+				"Biometría (TouchID/FaceID)",
+				"REST API",
+				"RCSB Protein Data Bank"
+			],
+			"date": "Septiembre 2025",
+			"repo": "https://github.com/aceyzz/swifty-proteins",
+			"logo": "/assets/projects/swifty-proteins.png",
+			"banner": "/assets/projects/banner/swifty-p.png",
+			"category": [
+				"Desarrollo Móvil",
+				"Desarrollo Web",
+				"IA & Datos",
+				"Programación Orientada a Objetos",
+				"Proyectos 42"
+			]
+		},
+		{
+			"title": "Matcha",
+			"description": "Creación de un sitio de citas completo, con perfiles, matching, chat en tiempo real y notificaciones, seguro de extremo a extremo.",
+			"detail": "Matcha es un proyecto web de la escuela 42 que consiste en desarrollar una aplicación de citas moderna y segura. Los usuarios pueden registrarse, iniciar sesión, completar su perfil (sexo, preferencias, biografía, intereses con tags, fotos), y ver quién ha visitado o 'likeado' su perfil. La app integra un motor de matching basado en geolocalización, intereses comunes y un 'fame rating'. Incluye búsqueda avanzada por criterios (edad, ubicación, tags), consulta de perfiles con historial de visitas, gestión de likes/matches, y chat en tiempo real con notificaciones instantáneas (likes, vistas, mensajes). Bonus incluyen autenticación por redes sociales (Omniauth), importación de fotos, mapas interactivos y citas planificadas. Todo debe ser completamente seguro (contraseñas cifradas, validación de formularios, protección contra SQL injection y XSS).",
+			"technologies": [
+				"Golang",
+				"PostgreSQL",
+				"JavaScript",
+				"Docker",
+				"Python",
+				"HTML",
+				"CSS",
+				"Chat en tiempo real",
+				"REST API",
+				"OAuth/Omniauth"
+			],
+			"date": "Septiembre 2025",
+			"repo": "https://github.com/cduffaut/matcha",
+			"logo": "/assets/projects/matcha.png",
+			"banner": "/assets/projects/banner/matcha.png",
+			"category": [
+				"Desarrollo Web",
+				"IA & Datos",
+				"Programación Orientada a Objetos",
+				"Proyectos 42"
+			]
+		},
+		{
+			"title": "Tokenizer",
+			"description": "Proyecto Web3 para crear y desplegar un token BEP-20 personalizado en la blockchain BNB con documentación y pruebas.",
+			"detail": "Tokenizer es un proyecto blockchain de la escuela 42, en colaboración con BNB Chain. El objetivo es diseñar y desplegar un token digital personalizado (obligatoriamente con '42' en el nombre) en una blockchain pública compatible, aquí la BNB Smart Chain. El proyecto incluye desarrollo del smart contract (estándar ERC-20 o BEP-20), README detallado de las decisiones técnicas, despliegue en testnet y publicación del token en un explorador (BscScan, Blockscan). La arquitectura del repositorio incluye carpeta `code` para contratos, `deployment` para scripts de despliegue y `documentation` para explicaciones y whitepaper. La seguridad y gestión de privilegios (ownership, pause, burn, mint según elección) son esenciales. Como bonus, integración de sistema multisignature puede reforzar la seguridad de las transacciones. El proyecto permite dominar Solidity, herramientas de desarrollo (Hardhat, Truffle, Remix) y el ecosistema Web3.",
+			"technologies": [
+				"Solidity",
+				"Node.js",
+				"TypeScript",
+				"JavaScript",
+				"Hardhat",
+				"Ethers.js",
+				"BNB Smart Chain",
+				"Metamask",
+				"Web3",
+				"Smart Contracts"
+			],
+			"date": "Septiembre 2025",
+			"repo": "https://github.com/aceyzz/tokenizer",
+			"logo": "/assets/projects/tokenizer.png",
+			"banner": "/assets/projects/banner/tokenizer.png",
+			"category": [
+				"IA & Datos",
+				"Programación Orientada a Objetos",
+				"Proyectos 42",
+				"Ciberseguridad & Red"
+			]
+		},
+		{
+			"title": "Inception of Things",
+			"description": "Proyecto de iniciación a Kubernetes con Vagrant, K3s, K3d y GitOps (Argo CD), desarrollado en la escuela 42.",
+			"detail": "Este proyecto busca familiarizarse con Kubernetes desde el punto de vista del desarrollador. Se comienza creando una o varias máquinas virtuales con Vagrant (parte 1). Luego, se despliega un clúster K3s y se ejecutan varias aplicaciones con un Ingress (parte 2). La última etapa implica K3d junto con Argo CD para implementar integración continua/despliegue continuo directamente desde un repositorio GitHub (parte 3). Un bonus opcional consiste en integrar GitLab + CI/CD con Argo CD para sincronizar automáticamente las aplicaciones en el clúster.",
+			"technologies": [
+				"Vagrant",
+				"K3s",
+				"K3d",
+				"Kubernetes",
+				"Ingress",
+				"Docker",
+				"Argo CD",
+				"GitOps",
+				"CI/CD",
+				"GitLab"
+			],
+			"date": "Septiembre 2025",
+			"repo": "https://github.com/aceyzz/inception-of-things",
+			"logo": "/assets/projects/iot.png",
+			"banner": "/assets/projects/banner/iot.png",
+			"category": [
+				"Proyectos 42",
+				"Sistemas & DevOps"
+			]
+		},
+		{
+			"title": "Swifty-Companion",
+			"description": "Aplicación iOS en SwiftUI usando la API de 42 para mostrar información de un estudiante.",
+			"detail": "Swifty-Companion es un proyecto móvil realizado en la escuela 42. Es una app iOS desarrollada en SwiftUI que consume la API oficial de 42 vía OAuth2 (Intranet) para mostrar dinámicamente los datos de un usuario. La app incluye una vista de inicio con campo de búsqueda (login 42), vista de perfil de estudiante (login, nivel, ubicación en la escuela, coalición, proyectos realizados, competencias, foto de perfil), arquitectura reactiva adaptada a varios tamaños de pantalla y gestión robusta de errores (login no encontrado, API no disponible, problemas de red o autenticación). Bonus como refresco del token OAuth2 al expirar y reconexión automática son posibles si la parte obligatoria es perfecta. Todo respeta buenas prácticas de seguridad, con `.env` ignorado para las claves API.",
+			"technologies": [
+				"Swift",
+				"SwiftUI",
+				"OAuth2",
+				"REST API",
+				"Responsive UI",
+				"iOS"
+			],
+			"date": "Septiembre 2025",
+			"repo": "https://github.com/aceyzz/swifty-companion",
+			"logo": "/assets/projects/swifty.png",
+			"banner": "/assets/projects/banner/swifty.png",
+			"category": [
+				"Proyectos 42",
+				"Desarrollo Móvil",
+				"Programación Orientada a Objetos"
+			]
+		},
+		{
+			"title": "BibleFlow",
+			"description": "Aplicación móvil Swift para la lectura de la Biblia offline, multilingüe, para iOS y macOS.",
+			"detail": "BibleFlow es una aplicación móvil en Swift diseñada para ofrecer una experiencia de lectura bíblica completa sin conexión a internet. Soporta varios idiomas para los textos bíblicos, una interfaz adaptativa para iOS y macOS, y navegación fluida entre libros, capítulos y versículos. La app enfatiza la accesibilidad y el rendimiento offline. Actualmente en desarrollo, el proyecto incluye gestión de diferentes traducciones, almacenamiento local de versiones de la Biblia y una UI moderna responsive basada en SwiftUI (o UIKit), con futuras funciones como búsqueda, favoritos, anotaciones o sincronización de datos entre dispositivos.",
+			"technologies": [
+				"Swift",
+				"SwiftUI",
+				"Core Data (almacenamiento local)",
+				"iOS",
+				"macOS",
+				"Multilingüe",
+				"Offline"
+			],
+			"date": "En curso",
+			"repo": null,
+			"logo": "/assets/projects/bible.png",
+			"banner": "/assets/projects/banner/bible.png",
+			"category": [
+				"IA & Datos",
+				"Programación Orientada a Objetos",
+				"Desarrollo Móvil"
+			]
+		},
+		{
+			"title": "BTCpay Server – Pagos Cripto",
+			"description": "Despliegue de un servidor BTCpay auto-hospedado para aceptar pagos en criptomonedas (BTC, XMR, LTC, DOGE, DASH) de forma soberana, segura y sin intermediarios.",
+			"detail": "Implementación de BTCpay Server en un servidor on-prem Debian vía Docker, con un reverse proxy seguro y acceso remoto protegido. Configuración de wallets para varias criptomonedas (Bitcoin, Monero, Litecoin, Dogecoin, Dash), generación de facturas dinámicas, integración de nodo completo para cada una y gestión de claves local sin terceros. Este proyecto refuerza la autonomía financiera y pone en práctica conceptos avanzados de descentralización, seguridad y soberanía digital. Se presta especial atención a la resiliencia de la infraestructura, seguridad de red y experiencia de usuario tanto para comerciante como cliente.",
+			"technologies": [
+				"Debian",
+				"Docker",
+				"Docker Compose",
+				"BTCpay Server",
+				"Nginx Reverse Proxy",
+				"Bitcoin Full Node",
+				"XMR Wallet",
+				"LTC Wallet",
+				"DOGE Wallet",
+				"DASH Wallet",
+				"Tailscale",
+				"Auto-hospedaje",
+				"Seguridad de red",
+				"Criptomonedas"
+			],
+			"date": "Junio 2025",
+			"repo": null,
+			"logo": "/assets/projects/crypto.png",
+			"banner": "/assets/projects/banner/btcpay.png",
+			"category": [
+				"Sistemas & DevOps",
+				"Ciberseguridad & Red"
+			]
+		},
+		{
+			"title": "HomeLab Personal",
+			"description": "Despliegue de un HomeLab completo en servidor Debian con servicios IA, DevOps, virtualización y seguridad vía VPN privada.",
+			"detail": "Instalación y configuración de un servidor Debian en una máquina física reciclada para alojar un HomeLab personal vía CasaOS. Implementación de Tailscale para acceso remoto seguro y cifrado. Despliegue y gestión de servicios avanzados vía Docker: chatbot IA local (Ollama CPU + Open WebUI), entorno de desarrollo (VSCode Server), herramientas de productividad (Ghostfolio, Wallos, LibreTranslate, Stirling PDF, ConvertX, IT Tools), reproductor multimedia (Navidrome), escritorio remoto (Webtop) y un YouTube Downloader desarrollado a medida. Centralización de logs vía Dozzle. Todos los servicios están contenedorizados, aislados y accesibles solo por VPN. Este proyecto aplica buenas prácticas de administración de sistemas, seguridad de red, virtualización y DevOps, usando herramientas modernas en auto-hospedaje.",
+			"technologies": [
+				"Debian",
+				"CasaOS",
+				"Docker",
+				"Docker Compose",
+				"Reverse Proxy",
+				"Ollama",
+				"Open WebUI",
+				"VSCode Server",
+				"Gitea",
+				"Dozzle",
+				"Tailscale",
+				"Telegram Bot API",
+				"Wallos",
+				"Ghostfolio",
+				"LibreTranslate",
+				"Stirling PDF",
+				"Excalidraw",
+				"KASM Workspaces",
+				"Seguridad de red",
+				"Monitorización local"
+			],
+			"date": "Abril 2025",
+			"repo": null,
+			"logo": "/assets/projects/homelab.png",
+			"banner": "/assets/projects/banner/homelab.png",
+			"category": [
+				"Sistemas & DevOps",
+				"Ciberseguridad & Red"
+			]
+		},
+		{
+			"title": "Bot de Trading Automatizado",
+			"description": "Desarrollo de un bot de trading cripto usando Freqtrade, estrategia DCA personalizada y una interfaz UI accesible vía Cloudflare Tunnel.",
+			"detail": "Creación de un bot de trading automatizado basado en Freqtrade, integrando una estrategia avanzada de DCA (Dollar-Cost Averaging) optimizada para un rendimiento anual mínimo del 15%. El bot monitoriza tendencias de mercado y aplica órdenes de compra y venta inteligentes según indicadores técnicos. Las performances han sido validadas vía backtests en varios años: 2022 (15.05%), 2023 (17.83%) y 2024 (16.42%). La app se despliega en un servidor Linux on-premise, garantizando control total sobre la infraestructura. La virtualización vía Docker asegura aislamiento óptimo de servicios y facilita gestión de actualizaciones y escalabilidad. Una interfaz de usuario vía Freqtrade UI permite seguir en tiempo real posiciones abiertas, rendimiento e historial de transacciones. Un túnel Cloudflare se ha implementado para asegurar el acceso remoto a la interfaz y garantizar gestión fluida del bot, sin exposición directa en Internet.",
+			"technologies": [
+				"Python",
+				"Freqtrade",
+				"PostgreSQL",
+				"Docker",
+				"Binance API",
+				"Pandas",
+				"NumPy",
+				"Telegram Bot API",
+				"Freqtrade UI",
+				"Cloudflare Tunnel",
+				"Reverse Proxy",
+				"Raspberry Pi",
+				"Virtualización"
+			],
+			"date": "Febrero 2025",
+			"repo": null,
+			"logo": "/assets/projects/cryptobot.png",
+			"banner": "/assets/projects/banner/bot.png",
+			"category": [
+				"IA & Datos",
+				"Sistemas & DevOps"
+			]
+		},
+		{
+			"title": "Portfolio Website",
+			"description": "Creación de un portfolio interactivo para mostrar mis proyectos.",
+			"detail": "Desarrollo de un sitio web interactivo para mostrar mis proyectos profesionales y personales. El sitio está alojado en Azure Static Web Apps para un rendimiento óptimo y gestión simplificada de despliegues. El dominio está gestionado por Infomaniak. Un servicio de enrutamiento personalizado en JavaScript puro se usa para una navegación fluida entre las distintas secciones y asegurar el principio de Single Page Application. El diseño es minimalista y moderno gracias a picoCSS.",
+			"technologies": [
+				"HTML",
+				"CSS",
+				"JavaScript",
+				"Azure Static Web Apps",
+				"picoCSS",
+				"Github CI/CD"
+			],
+			"date": "Noviembre 2024",
+			"repo": "https://github.com/aceyzz/personnal_portfolio",
+			"logo": "/assets/projects/portfolio.png",
+			"banner": "/assets/projects/banner/portfolio.png",
+			"category": [
+				"Desarrollo Web"
+			]
+		},
+		{
+			"title": "Cloud-1",
+			"description": "Implementación de un entorno WordPress completo con Docker Compose en Azure.",
+			"detail": "Este proyecto consiste en crear un entorno WordPress completo usando contenedores Docker para WordPress, MariaDB, phpMyAdmin y Nginx, desplegados en una VM Azure. Los contenedores se orquestan con Docker Compose y se automatizan vía Ansible para el despliegue y configuración. El entorno usa certificados SSL para asegurar las conexiones y garantiza la persistencia de datos para MariaDB y WordPress.",
+			"technologies": [
+				"Docker",
+				"Docker Compose",
+				"Ansible",
+				"Azure",
+				"WordPress",
+				"MariaDB",
+				"phpMyAdmin",
+				"Nginx",
+				"SSL"
+			],
+			"date": "Noviembre 2024",
+			"repo": "https://github.com/aceyzz/cloud-1",
+			"logo": "/assets/projects/cloud-1.png",
+			"banner": "/assets/projects/banner/cloud-1.png",
+			"category": [
+				"Sistemas & DevOps",
+				"Proyectos 42"
+			]
+		},
+		{
+			"title": "Libft",
+			"description": "Recrear las principales funciones de la biblioteca estándar C.",
+			"detail": "Desarrollo de una biblioteca personal recreando varias funciones esenciales de la biblioteca estándar C, con enfoque en buenas prácticas y gestión eficiente de memoria.",
+			"technologies": [
+				"C",
+				"Makefile"
+			],
+			"date": "Octubre 2023",
+			"repo": "https://github.com/aceyzz/Libft",
+			"logo": "/assets/projects/libft.png",
+			"banner": "/assets/projects/banner/libft.png",
+			"category": [
+				"Programación Bajo Nivel",
+				"Proyectos 42"
+			]
+		},
+		{
+			"title": "Get Next Line",
+			"description": "Leer una línea de un archivo de manera optimizada.",
+			"detail": "Creación de una función capaz de leer línea por línea desde un archivo o entrada estándar, usando buffers para optimizar el rendimiento.",
+			"technologies": [
+				"C"
+			],
+			"date": "Noviembre 2023",
+			"repo": "https://github.com/aceyzz/Get_next_line",
+			"logo": "/assets/projects/gnl.png",
+			"banner": "/assets/projects/banner/gnl.png",
+			"category": [
+				"Programación Bajo Nivel",
+				"Proyectos 42"
+			]
+		},
+		{
+			"title": "Ft_printf",
+			"description": "Reproducir la función printf de la biblioteca estándar C.",
+			"detail": "Desarrollo de una versión personalizada de la función printf, soportando varios formatos y especificaciones, gestionando eficientemente la memoria.",
+			"technologies": [
+				"C"
+			],
+			"date": "Noviembre 2023",
+			"repo": "https://github.com/aceyzz/Ft_printf",
+			"logo": "/assets/projects/printf.png",
+			"banner": "/assets/projects/banner/ftprintf.png",
+			"category": [
+				"Programación Bajo Nivel",
+				"Proyectos 42"
+			]
+		},
+		{
+			"title": "Born2BeRoot",
+			"description": "Configurar una máquina virtual segura.",
+			"detail": "Instalación y configuración de una máquina virtual segura basada en Debian. Este proyecto cubre varios aspectos esenciales de la gestión de sistemas, incluyendo descarga e instalación de la máquina virtual, configuración inicial, conexión vía SSH y establecimiento de políticas de seguridad estrictas. Los conceptos incluyen virtualización con VirtualBox, gestión de permisos y usuarios, instalación y configuración de servicios esenciales como SSH y UFW, así como establecimiento de políticas de contraseñas robustas y registros de seguridad.",
+			"technologies": [
+				"Linux",
+				"VirtualBox",
+				"Debian",
+				"SSH",
+				"UFW",
+				"Sudo",
+				"Crontab"
+			],
+			"date": "Noviembre 2023",
+			"repo": "https://github.com/aceyzz/Born2beRoot",
+			"logo": "/assets/projects/b2r.png",
+			"banner": "/assets/projects/banner/b2r.png",
+			"category": [
+				"Sistemas & DevOps",
+				"Ciberseguridad & Red",
+				"Proyectos 42"
+			]
+		},
+		{
+			"title": "Push_Swap",
+			"description": "Implementar un algoritmo de ordenación con número limitado de operaciones.",
+			"detail": "El proyecto push_swap consiste en desarrollar un programa en C que toma una lista de enteros como argumento en la línea de comandos y muestra una secuencia de operaciones para ordenar esos enteros de manera óptima. El programa usa dos pilas, 'a' y 'b', y un conjunto limitado de operaciones de manipulación de pilas para ordenar los enteros. Las operaciones permitidas incluyen swaps, rotaciones y operaciones de empuje entre pilas. El objetivo es minimizar el número total de operaciones realizadas para ordenar la pila.",
+			"technologies": [
+				"C"
+			],
+			"date": "Noviembre 2023",
+			"repo": "https://github.com/aceyzz/Push_swap",
+			"logo": "/assets/projects/pushswap.png",
+			"banner": "/assets/projects/banner/pushswap.png",
+			"category": [
+				"Programación Bajo Nivel",
+				"Proyectos 42"
+			]
+		},
+		{
+			"title": "Minitalk",
+			"description": "Creación de una aplicación cliente-servidor para intercambiar mensajes vía señales Unix.",
+			"detail": "Desarrollo de un sistema de comunicación cliente-servidor simple usando señales Unix como medio de transmisión. El cliente envía un mensaje al servidor, que lo recibe y muestra. El cliente convierte cada carácter del mensaje en una secuencia de bits y los envía al servidor usando señales SIGUSR1 y SIGUSR2. El servidor reconstruye el mensaje a partir de los bits recibidos y lo muestra. El servidor confirma la recepción de cada mensaje enviando una señal al cliente. El proyecto incluye funcionalidades bonus como soporte de caracteres Unicode.",
+			"technologies": [
+				"C",
+				"Unix",
+				"Señales"
+			],
+			"date": "Noviembre 2023",
+			"repo": "https://github.com/aceyzz/Minitalk",
+			"logo": "/assets/projects/minitalk.png",
+			"banner": "/assets/projects/banner/minitalk.png",
+			"category": [
+				"Programación Bajo Nivel",
+				"Proyectos 42"
+			]
+		},
+		{
+			"title": "So_Long",
+			"description": "Desarrollo de un juego 2D en C basado en una biblioteca gráfica.",
+			"detail": "Bienvenido a So_Long, un proyecto de juego 2D desarrollado en C como parte de un programa de aprendizaje de programación. Este proyecto se centra en la creación de un juego simple usando la biblioteca gráfica MinilibX. El objetivo es construir un juego donde un jugador se mueve por un mapa, recoge objetos, evita obstáculos y llega a la salida. El juego implica gestión de entradas de usuario, renderizado gráfico y gestión de elementos del juego como jugador, objetos, obstáculos y salida. El proyecto incluye gestión de eventos, animaciones e interacciones con el entorno.",
+			"technologies": [
+				"C",
+				"MinilibX",
+				"Gráficos"
+			],
+			"date": "Noviembre 2023",
+			"repo": "https://github.com/aceyzz/So_long",
+			"logo": "/assets/projects/solong.png",
+			"banner": "/assets/projects/banner/solong.png",
+			"category": [
+				"Programación Bajo Nivel",
+				"Proyectos 42"
+			]
+		},
+		{
+			"title": "Philosophers",
+			"description": "Simulación de un problema clásico de algoritmo en multithreading.",
+			"detail": "Este programa implementa la simulación del clásico problema de los filósofos que cenan usando threads y mutex en lenguaje C. La simulación implica que los filósofos alternan entre comer, pensar y dormir. Usan tenedores para comer y los dejan en la mesa cuando terminan. Los filósofos nunca deben morir de hambre y la simulación termina cuando uno muere de hambre. El programa debe escribirse sin variables globales y tomar argumentos como número de filósofos, límites de tiempo para comer, dormir y morir, y un argumento opcional para el número de comidas que cada filósofo debe tomar antes de que la simulación termine. El programa también gestiona el registro de eventos y asegura que los filósofos eviten morir. Puede implementarse con threads y mutex o con procesos y semáforos (en mi caso, threads & mutex).",
+			"technologies": [
+				"C",
+				"Multithreading"
+			],
+			"date": "Diciembre 2023",
+			"repo": "https://github.com/aceyzz/Philosophers",
+			"logo": "/assets/projects/philo.png",
+			"banner": null,
+			"category": [
+				"Programación Bajo Nivel",
+				"Proyectos 42"
+			]
+		},
+		{
+			"title": "Minishell",
+			"description": "Creación de un shell minimalista inspirado en Bash.",
+			"detail": "En nuestro proyecto 'Minishell' en la escuela 42, desarrollamos un programa de shell simplificado. Este reto es crucial para nuestra comprensión de procesos y descriptores de archivos. Nuestro objetivo es crear una versión minimalista de bash, sumergiéndonos en los matices de la programación de shell. Nos centramos en aspectos fundamentales como gestión de entradas de comandos, manipulación de directorios de archivos, interpretación de variables de entorno e implementación de funcionalidades esenciales como gestión de señales y ejecución de comandos. Este proyecto representa un paso importante hacia una comprensión profunda de la programación de sistemas, ofreciendo experiencia práctica de conceptos clave usados en entornos de shell Unix/Linux.",
+			"technologies": [
+				"C",
+				"Unix",
+				"Shell"
+			],
+			"date": "Enero 2024",
+			"repo": "https://github.com/aceyzz/Minishell",
+			"logo": "/assets/projects/shell.png",
+			"banner": "/assets/projects/banner/minishell.png",
+			"category": [
+				"Programación Bajo Nivel",
+				"Proyectos 42"
+			]
+		},
+		{
+			"title": "Cub3D",
+			"description": "Desarrollo de un juego en 3D inspirado en Wolfenstein 3D con ray-casting.",
+			"detail": "Este proyecto consiste en crear un juego en 3D en primera persona usando la técnica de ray-casting para renderizar un laberinto. El juego se desarrolla con la biblioteca gráfica MiniLibX e incluye funcionalidades como movimiento del jugador, disparo y gestión de texturas.",
+			"technologies": [
+				"C",
+				"MiniLibX",
+				"Ray-casting"
+			],
+			"date": "Enero 2024",
+			"repo": "https://github.com/aceyzz/cub3d",
+			"logo": "/assets/projects/cube.png",
+			"banner": "/assets/projects/banner/cub3d.png",
+			"category": [
+				"Programación Bajo Nivel",
+				"Proyectos 42"
+			]
+		},
+		{
+			"title": "NetPractice",
+			"description": "Aprendizaje de los conceptos fundamentales de redes.",
+			"detail": "El proyecto NetPractice es un reto apasionante propuesto por la escuela 42 que busca profundizar y poner en práctica mis habilidades en redes informáticas. Es una oportunidad única para sumergirse en el mundo complejo y fascinante de las redes, aprendiendo a manipular, configurar y resolver problemas en entornos reales y simulados. Los objetivos incluyen comprensión de fundamentos de redes, incluyendo modelos OSI y TCP/IP, dominio de configuración y gestión de dispositivos de red como switches y routers, y aplicación de técnicas de troubleshooting para identificar y resolver problemas de red.",
+			"technologies": [
+				"Networking",
+				"Modelo OSI",
+				"TCP/IP",
+				"Switches",
+				"Routers",
+				"Troubleshooting"
+			],
+			"date": "Febrero 2024",
+			"repo": "https://github.com/aceyzz/NetPractice",
+			"logo": "/assets/projects/ip.png",
+			"banner": "/assets/projects/banner/netpractice.png",
+			"category": [
+				"Ciberseguridad & Red",
+				"Proyectos 42"
+			]
+		},
+		{
+			"title": "Piscina C++ (part.1)",
+			"description": "Introducción a la programación orientada a objetos en C++.",
+			"detail": "Descubrimiento de las bases de la programación orientada a objetos con C++. Enfoque en clases, objetos y modularidad. Comprensión de polimorfismo ad-hoc, sobrecargas y clases canónicas ortodoxas en C++. Aprendizaje de asignación de memoria, referencias, punteros a miembros y uso de switch en C++. Exploración de las especificidades de C++ respecto a C, con inmersión en programación orientada a objetos. Estudio de polimorfismo de sub-tipo, clases abstractas e interfaces en C++. Comprensión de la herencia en C++ y sus implicaciones para el diseño de software robusto y modular.",
+			"technologies": [
+				"C++"
+			],
+			"date": "Marzo 2024",
+			"repo": "https://github.com/aceyzz/CPP-Part.1",
+			"logo": "/assets/projects/cplusplus.png",
+			"banner": "/assets/projects/banner/cpp1.png",
+			"category": [
+				"Programación Orientada a Objetos",
+				"Proyectos 42"
+			]
+		},
+		{
+			"title": "Piscina C++ (part.2)",
+			"description": "Profundización en conceptos avanzados de C++.",
+			"detail": "Profundización en funcionalidades avanzadas de C++ como templates, distintos tipos de cast, uso de contenedores estándar (STL), 'template containers', iteradores y 'algorithms', así como gestión de excepciones con bloques Try/Catch. El proyecto incluye implementación de conceptos de programación genérica, manejo de punteros inteligentes y optimización de rendimiento mediante técnicas avanzadas de gestión de memoria.",
+			"technologies": [
+				"C++"
+			],
+			"date": "Marzo 2024",
+			"repo": "https://github.com/aceyzz/CPP-Part.2",
+			"logo": "/assets/projects/cplusplus.png",
+			"banner": "/assets/projects/banner/cpp2.png",
+			"category": [
+				"Programación Orientada a Objetos",
+				"Proyectos 42"
+			]
+		},
+		{
+			"title": "Inception",
+			"description": "Despliegue de una infraestructura web compleja y segura con Docker.",
+			"detail": "En el marco de nuestro curso en la escuela 42, abordamos el proyecto 'Inception'. Este proyecto ambicioso busca profundizar y poner en práctica conocimientos de virtualización y gestión de contenedores. El objetivo es desplegar una infraestructura compleja y segura, completamente configurada con Docker y orquestada por docker-compose, todo en una máquina virtual dedicada. La arquitectura incluye varios componentes clave: un contenedor Docker con NGINX, uno dedicado a WordPress + php-fpm, uno para MariaDB, dos volúmenes distintos para la base de datos y archivos del sitio web, y una red Docker específica para comunicación entre contenedores. Los contenedores deben construirse desde Dockerfiles personalizados, sin usar imágenes preconstruidas ni servicios como DockerHub.",
+			"technologies": [
+				"Docker",
+				"WordPress",
+				"MariaDB",
+				"php-fpm",
+				"Nginx",
+				"TLS",
+				"Docker Compose",
+				"Virtualización"
+			],
+			"date": "Marzo 2024",
+			"repo": "https://github.com/aceyzz/Inception",
+			"logo": "/assets/projects/inception.png",
+			"banner": "/assets/projects/banner/inception.png",
+			"category": [
+				"Sistemas & DevOps",
+				"Ciberseguridad & Red",
+				"Proyectos 42"
+			]
+		},
+		{
+			"title": "Webserv",
+			"description": "Implementación de un servidor web en C++ respetando el protocolo HTTP.",
+			"detail": "El proyecto Webserv de la escuela 42 consiste en implementar un servidor web en C++ bajo el estándar C++98. Este servidor debe servir archivos estáticos y gestionar peticiones CGI. Debe manejar múltiples conexiones simultáneas, archivos grandes de forma asíncrona y no bloqueante. Además, debe soportar métodos HTTP GET, POST y DELETE, así como peticiones CGI para GET y POST. Debe gestionar errores y devolver los códigos de estado HTTP apropiados. El servidor también debe manejar peticiones con headers y bodies grandes, con un límite definido en el archivo de configuración. El comportamiento de referencia para este proyecto es el de Nginx.",
+			"technologies": [
+				"C++",
+				"Networking",
+				"HTTP",
+				"CGI",
+				"I/O Asíncrono",
+				"SSL"
+			],
+			"date": "Agosto 2024",
+			"repo": "https://github.com/aceyzz/webserv",
+			"logo": "/assets/projects/web.png",
+			"banner": "/assets/projects/banner/webserv.png",
+			"category": [
+				"Desarrollo Web",
+				"Programación Orientada a Objetos",
+				"Proyectos 42"
+			]
+		},
+		{
+			"title": "Ft_Transcendence",
+			"description": "Desarrollo de una aplicación web completa para un juego online multijugador.",
+			"detail": "Creación de una plataforma web para un juego multijugador en tiempo real, incluyendo WebSocket. El proyecto incluye gestión de usuarios, soporte multijugador local y remoto, sistema de torneos, tablas de estadísticas y medidas de seguridad avanzadas como hash de contraseñas y protección contra ataques XSS/SQL Injection. El backend es gestionado por un módulo web personalizado, la base de datos está integrada y el frontend usa JavaScript con un toolkit moderno. La aplicación es una SPA compatible con Chrome, sin errores de consola y se lanza con un solo comando.",
+			"technologies": [
+				"HTML",
+				"CSS",
+				"JavaScript",
+				"Django",
+				"WebSocket",
+				"PostgreSQL",
+				"Docker",
+				"Modsecurity",
+				"Nginx",
+				"HashiCorp Vault"
+			],
+			"date": "Octubre 2024",
+			"repo": "https://github.com/aceyzz/ft_transcendence",
+			"logo": "/assets/projects/pong.png",
+			"banner": "/assets/projects/banner/transcendence.png",
+			"category": [
+				"Desarrollo Web",
+				"Ciberseguridad & Red",
+				"Proyectos 42"
+			]
+		},
+		{
+			"title": "Módulos Shell",
+			"description": "Introducción a los scripts shell y gestión de comandos Unix.",
+			"detail": "Este proyecto explora las bases del scripting shell, los comandos esenciales de Unix y su uso en un entorno Linux. El objetivo es aprender a automatizar tareas comunes.",
+			"technologies": [
+				"Scripting Shell",
+				"Unix"
+			],
+			"date": "Septiembre 2023",
+			"repo": "https://github.com/aceyzz/42-Piscine/tree/main/shell_modules",
+			"logo": "/assets/projects/modules_shell.png",
+			"category": [
+				"Programación Bajo Nivel",
+				"Proyectos 42"
+			]
+		},
+		{
+			"title": "Módulos C",
+			"description": "Primeras bases del lenguaje C, lógica y algoritmos simples.",
+			"detail": "Aprendizaje de las bases del lenguaje C, incluyendo estructuras de datos, bucles y funciones. Los proyectos también enfatizan la lógica algorítmica y las herramientas de compilación.",
+			"technologies": [
+				"C"
+			],
+			"date": "Septiembre 2023",
+			"repo": "https://github.com/aceyzz/42-Piscine/tree/main/c_modules",
+			"logo": "/assets/projects/modules_c.png",
+			"category": [
+				"Programación Bajo Nivel",
+				"Proyectos 42"
+			]
+		},
+		{
+			"title": "Rushes",
+			"description": "Desafíos intensivos en equipo para resolver problemas complejos.",
+			"detail": "Trabajo colaborativo en desafíos complejos con deadlines cortos, orientado a mejorar habilidades de resolución de problemas y comunicación en equipo.",
+			"technologies": [
+				"C",
+				"Trabajo colaborativo"
+			],
+			"date": "Septiembre 2023",
+			"repo": "https://github.com/aceyzz/42-Piscine/tree/main/rushes",
+			"logo": "/assets/projects/rushes.png",
+			"category": [
+				"Programación Bajo Nivel",
+				"Proyectos 42"
 			]
 		}
 	]

@@ -2,7 +2,9 @@ import { partialService } from "./partialService.js";
 import { projectService } from "./projectService.js";
 import { experienceService } from "./experienceService.js";
 import { certificationService } from "./certificationService.js";
+import { statsService } from "./statsServices.js";
 import { homeService } from "./homeService.js";
+import { contactService } from "./contactService.js";
 
 class RouterService {
 	#container;
@@ -66,6 +68,10 @@ class RouterService {
 			case "/experience":
 				experienceService.init("experience-container");
 				certificationService.init("certification-container");
+				break;
+			case "/contact":
+				contactService.init("stats-note");
+				statsService.init("stats-container");
 				break;
 			default:
 				break;

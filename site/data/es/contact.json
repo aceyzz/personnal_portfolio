@@ -1,0 +1,8 @@
+{
+	"stats_note": [
+		"La XP refleja el impacto acumulado de cada proyecto.",
+		"Para cada entrada, el proyecto se distribuye en la stack según sus porcentajes.",
+		"Las puntuaciones se normalizan en base al percentil 95 para mantener la comparabilidad.",
+		"Bronce: 0–200 XP · Plata: 200–500 XP · Oro: 500–900 XP · Platino: 900–1500 XP · Diamante: 1500+ XP."
+	]
+}

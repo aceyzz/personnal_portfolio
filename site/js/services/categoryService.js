@@ -30,8 +30,8 @@ class CategoryService {
 		const categoriesSet = new Set();
 		this.#allProjects = [];
 
-		(data?.categories ?? []).forEach(group => {
-			(group.projects ?? []).forEach(project => {
+		if (data?.projects) {
+			data.projects.forEach(project => {
 				if (Array.isArray(project.category)) {
 					for (const cat of project.category) {
 						categoriesSet.add(cat);
@@ -39,8 +39,10 @@ class CategoryService {
 				}
 				this.#allProjects.push(project);
 			});
-		});
-
+		}
+		else {
+			throw new Error("Invalid data structure. Expected 'projects' array.");
+		}
 		this.#categories = ["all", ...Array.from(categoriesSet).sort()];
 	}
 
@@ -82,7 +84,7 @@ class CategoryService {
 		const container = document.getElementById(this.cardContainerId);
 		if (!container) return;
 
-		const title = category === "all" ? "All the projects" : category;
+		const title = category === "all" ? "All" : category;
 		projectService.render(container, [
 			{
 				category: title,

@@ -1,57 +1,64 @@
 {
 	"certifications": [
 		{
-			"id": 1,
+			"id": 4,
 			"title": "Azure Sicherheit, Compliance und Identitätsgrundlagen",
 			"company": "Microsoft",
 			"date": "Dezember 2024",
-			"description": "Diese Zertifizierung ermöglichte es mir, ein tiefes Verständnis der grundlegenden Konzepte von Sicherheit, Compliance und Identitätsmanagement in einer Cloud-Umgebung zu entwickeln. Ich erwarb wesentliche Fähigkeiten zur Implementierung von Sicherheitsstrategien basierend auf Zero-Trust-Prinzipien, zur Verbesserung des Daten- und Ressourcenschutzes und zur Sicherstellung der Einhaltung gesetzlicher Vorschriften. Diese Zertifizierung bereitete mich darauf vor, Microsoft Azure-Tools und -Dienste zu nutzen, um Cloud-Infrastrukturen zu sichern, Identitäten und Zugriffe zu verwalten und potenzielle Bedrohungen und Schwachstellen zu überwachen.",
+			"description": "Diese Zertifizierung hat mir ermöglicht, die Grundlagen der Sicherheit, Compliance und Identitätsverwaltung in der Cloud zu beherrschen. Ich habe gelernt, das Zero Trust-Prinzip anzuwenden, Daten zu schützen und die Einhaltung von Vorschriften zu gewährleisten. Ich kann Azure-Tools nutzen, um Infrastrukturen zu sichern, Zugriffe zu verwalten und Bedrohungen zu überwachen.",
 			"skills": [
 				"Microsoft Azure",
 				"Cloud-Sicherheit",
 				"Regulatorische Compliance",
-				"Zero-Trust-Prinzipien",
-				"Identitäts- und Zugriffsmanagement",
+				"Zero Trust Prinzipien",
+				"Identitäts- und Zugriffsverwaltung",
 				"Cloud-Governance-Strategien",
 				"Datenschutz",
 				"Bedrohungs- und Schwachstellenmanagement",
-				"Cloud-Ressourcenüberwachung",
-				"Datenschutz und Integrität",
-				"Verschlüsselung und Schlüsselverwaltung",
+				"Überwachung von Cloud-Ressourcen",
+				"Datenschutz und Datenintegrität",
+				"Verschlüsselung und Schlüsselmanagement",
 				"Risikobewertung",
-				"Rollen- und Berechtigungsmanagement"
-			],
-			"logo": "/assets/azure_logo.png"
-		},
-		{
-			"id": 2,
-			"title": "Azure Cloud Grundlagen",
-			"company": "Microsoft",
-			"date": "August 2024",
-			"description": "Diese Zertifizierung ermöglichte es mir, ein tiefes Verständnis der Grundlagen des Cloud-Computings zu entwickeln, einschließlich der von Microsoft Azure angebotenen Dienste und Lösungen. Ich erwarb wesentliche Fähigkeiten zum Entwerfen, Bereitstellen und Verwalten von Cloud-Lösungen. Ich vertiefte auch mein Wissen über die grundlegenden Prinzipien von Sicherheit, Compliance und Kostenmanagement in einer Cloud-Umgebung. Diese Zertifizierung bereitete mich darauf vor, Azure-Tools und -Dienste zu nutzen, um den Betrieb zu optimieren und die Effizienz von Cloud-Infrastrukturen zu verbessern.",
-			"skills": [
-				"Cloud-Computing",
-				"Microsoft Azure",
-				"Infrastruktur als Dienst (IaaS)",
-				"Plattform als Dienst (PaaS)",
-				"Cloud-Bereitstellungsmodelle",
-				"Cloud-Sicherheit",
-				"Azure-Ressourcen",
-				"Cloud-Kostenmanagement",
-				"Virtualisierungskonzepte",
-				"Cloud-Betriebsoptimierung",
-				"Cloud-Compliance und -Regulierung",
-				"Identitäts- und Zugriffsmanagement",
-				"Leistungsüberwachung und -management"
+				"Rollen- und Berechtigungsverwaltung"
 			],
 			"logo": "/assets/azure_logo.png"
 		},
 		{
 			"id": 3,
-			"title": "Azure Daten Grundlagen",
+			"title": "Architekt für digitale Technologien",
+			"company": "42 Lausanne",
+			"date": "Oktober 2024",
+			"description": "Dieses Diplom hat mir ermöglicht, die Konzeption und Entwicklung digitaler Lösungen zu beherrschen. Ich habe solide Kompetenzen im Projektmanagement und in der Softwarearchitektur erworben. Ich habe gelernt, komplexe Probleme zu lösen und im agilen Team zusammenzuarbeiten. Ich habe moderne Technologien genutzt, um robuste Systeme zu entwerfen, bereitzustellen und zu warten. Dieses Programm hat mich darauf vorbereitet, Innovationen zu schaffen und aktuelle technologische Herausforderungen zu meistern.",
+			"skills": [
+				"Softwarearchitektur",
+				"Projektmanagement",
+				"C",
+				"C++",
+				"Python",
+				"Linux",
+				"Git",
+				"Docker",
+				"Kubernetes",
+				"DevOps",
+				"Design Patterns",
+				"Agilität",
+				"Entwurf von Softwarelösungen",
+				"Teamarbeit",
+				"Netzwerk",
+				"Cybersicherheit",
+				"Full Stack Entwicklung",
+				"Prozessautomatisierung",
+				"Tests und Qualitätssicherung",
+				"Kontinuierliche Integration und kontinuierliche Bereitstellung (CI/CD)"
+			],
+			"logo": "/assets/42_logo.png"
+		},
+		{
+			"id": 2,
+			"title": "Azure Daten-Grundlagen",
 			"company": "Microsoft",
 			"date": "August 2024",
-			"description": "Dank dieser Zertifizierung erwarb ich tiefgehende Fähigkeiten im Datenmanagement und in der Datenanalyse mit Microsoft Azure. Ich lernte, mit relationalen und nicht-relationalen Datenbanken zu arbeiten, große Datensätze zu verarbeiten und die Grundlagen von Datenanalysediensten zu verstehen, um die Entscheidungsfindung zu optimieren. Diese Zertifizierung ermöglichte es mir, Azure-Tools und -Dienste für das Datenmanagement zu beherrschen, einschließlich Azure Data Lake und Azure Synapse Analytics. Ich entwickelte auch ETL-Fähigkeiten (Extract, Transform, Load), um Daten aus verschiedenen Quellen zu transformieren und zu integrieren. Darüber hinaus lernte ich, Daten effektiv zu visualisieren, um die Interpretation und Kommunikation von Analyseergebnissen zu erleichtern.",
+			"description": "Diese Zertifizierung hat mir ermöglicht, das Management und die Analyse von Daten mit Azure zu beherrschen. Ich habe gelernt, relationale und NoSQL-Datenbanken zu nutzen, große Datenmengen zu verarbeiten und Azure-Analysetools einzusetzen. Ich kann Daten mit ETL transformieren und integrieren sowie Ergebnisse visualisieren, um die Entscheidungsfindung zu erleichtern.",
 			"skills": [
 				"Datenanalyse",
 				"Microsoft Azure",
@@ -65,39 +72,32 @@
 				"Datenvisualisierung",
 				"Datenmanagement",
 				"Datenintegration",
-				"Entscheidungsoptimierung"
+				"Optimierung der Entscheidungsfindung"
 			],
 			"logo": "/assets/azure_logo.png"
 		},
 		{
-			"id": 4,
-			"title": "Architekt für digitale Technologien",
-			"company": "42 Lausanne",
-			"date": "Oktober 2024",
-			"description": "Dieses Studium ermöglichte es mir, tiefgehende Expertise im Entwerfen und Entwickeln digitaler Lösungen zu erlangen. Ich stärkte meine Fähigkeiten im Projektmanagement, in der Softwarearchitektur und im Lösen komplexer Probleme, während ich in agilen Umgebungen zusammenarbeitete, um innovative und effiziente Lösungen zu liefern. Ich sammelte auch praktische Erfahrungen mit verschiedenen modernen Technologien und Tools, um robuste und skalierbare Softwaresysteme zu entwerfen, bereitzustellen und zu warten. Dieses Programm bereitete mich darauf vor, aktuelle technologische Herausforderungen zu meistern und im Bereich der digitalen Technologien zu innovieren.",
+			"id": 1,
+			"title": "Azure Cloud-Grundlagen",
+			"company": "Microsoft",
+			"date": "August 2024",
+			"description": "Diese Zertifizierung hat mir ermöglicht, die Grundlagen des Cloud Computing mit Microsoft Azure zu beherrschen. Ich habe gelernt, Cloud-Lösungen zu entwerfen, bereitzustellen und zu verwalten. Ich habe mein Wissen über Sicherheit, Compliance und Kostenmanagement vertieft. Ich kann Azure-Tools nutzen, um Abläufe zu optimieren und die Effizienz von Cloud-Infrastrukturen zu verbessern.",
 			"skills": [
-				"Softwarearchitektur",
-				"Projektmanagement",
-				"C",
-				"C++",
-				"Python",
-				"Linux",
-				"Git",
-				"Docker",
-				"Kubernetes",
-				"DevOps",
-				"Entwurfsmuster",
-				"Agilität",
-				"Softwarelösung Design",
-				"Teamarbeit",
-				"Netzwerk",
-				"Cybersicherheit",
-				"Full-Stack-Entwicklung",
-				"Prozessautomatisierung",
-				"Testen und Qualitätssicherung",
-				"Kontinuierliche Integration und kontinuierliche Bereitstellung (CI/CD)"
+				"Cloud Computing",
+				"Microsoft Azure",
+				"Infrastruktur als Service (IaaS)",
+				"Plattform als Service (PaaS)",
+				"Cloud-Bereitstellungsmodelle",
+				"Cloud-Sicherheit",
+				"Azure-Ressourcen",
+				"Cloud-Kostenmanagement",
+				"Virtualisierungskonzepte",
+				"Optimierung von Cloud-Abläufen",
+				"Compliance und Regulierung in der Cloud",
+				"Identitäts- und Zugriffsverwaltung",
+				"Überwachung und Leistungsmanagement"
 			],
-			"logo": "/assets/42_logo.png"
+			"logo": "/assets/azure_logo.png"
 		}
 	]
 }

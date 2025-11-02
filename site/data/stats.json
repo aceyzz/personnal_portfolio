@@ -1,0 +1,375 @@
+{
+  "projects": [
+    {
+      "title": "matt-daemon",
+      "complexity": 9450,
+      "stack": { "C++": 70, "Bash": 10, "VM": 10, "Git": 5, "Linux": 5 },
+      "domain": [
+        { "name": "Systems",  "weight": 70 },
+        { "name": "Security", "weight": 20 },
+        { "name": "Software", "weight": 10 }
+      ]
+    },
+    {
+      "title": "little-penguin-1",
+      "complexity": 9450,
+      "stack": { "Linux": 50, "Bash": 30, "VM": 15, "Git": 5 },
+      "domain": [
+        { "name": "Systems",  "weight": 70 },
+        { "name": "Security", "weight": 20 },
+        { "name": "Software", "weight": 10 }
+      ]
+    },
+    {
+      "title": "ft_linux",
+      "complexity": 4200,
+      "stack": { "Linux": 50, "Bash": 30, "VM": 15, "Git": 5 },
+      "domain": [
+        { "name": "Systems",  "weight": 80 },
+        { "name": "Security", "weight": 20 }
+      ]
+    },
+    {
+      "title": "ft_ssl_md5",
+      "complexity": 9450,
+      "stack": { "C": 70, "Linux": 15, "Git": 10, "Bash": 5 },
+      "domain": [
+        { "name": "Security", "weight": 60 },
+        { "name": "Software", "weight": 30 },
+        { "name": "Systems",  "weight": 10 }
+      ]
+    },
+    {
+      "title": "ft_malcolm",
+      "complexity": 6000,
+      "stack": { "C": 55, "Linux": 20, "Docker": 10, "Bash": 8, "Git": 7 },
+      "domain": [
+        { "name": "Security",  "weight": 40 },
+        { "name": "Networking","weight": 40 },
+        { "name": "Systems",   "weight": 15 },
+        { "name": "Software",  "weight": 5  }
+      ]
+    },
+    {
+      "title": "ft_linear_regression",
+      "complexity": 4200,
+      "stack": { "Python": 75, "Git": 10, "Linux": 10, "Bash": 5 },
+      "domain": [
+        { "name": "IA & Data", "weight": 80 },
+        { "name": "Software", "weight": 20 }
+      ]
+    },
+    {
+      "title": "Swifty-Proteins",
+      "complexity": 15750,
+      "stack": { "Swift": 88, "Git": 7, "CI/CD": 5 },
+      "domain": [
+        { "name": "Mobile", "weight": 100 }
+      ]
+    },
+    {
+      "title": "Matcha",
+      "complexity": 9450,
+      "stack": { "JavaScript": 30, "HTML": 6, "CSS": 4, "Go": 25, "SQL": 15, "Docker": 10, "Git": 5, "Linux": 5 },
+      "domain": [
+        { "name": "Web", "weight": 100 }
+      ]
+    },
+    {
+      "title": "Tokenizer",
+      "complexity": 9450,
+      "stack": { "JavaScript": 45, "Node.js": 25, "Git": 10, "Linux": 10, "CI/CD": 5, "Docker": 5 },
+      "domain": [
+        { "name": "Software", "weight": 60 },
+        { "name": "Web", "weight": 40 }
+      ]
+    },
+    {
+      "title": "Inception of Things",
+      "complexity": 25410,
+      "stack": { "Kubernetes": 40, "Docker": 25, "CI/CD": 15, "Git": 10, "Linux": 10 },
+      "domain": [
+        { "name": "DevOps", "weight": 70 },
+        { "name": "Cloud", "weight": 20 },
+        { "name": "Systems", "weight": 10 }
+      ]
+    },
+    {
+      "title": "Swifty-Companion",
+      "complexity": 4200,
+      "stack": { "Swift": 85, "Git": 10, "CI/CD": 5 },
+      "domain": [
+        { "name": "Mobile", "weight": 70 },
+        { "name": "Web", "weight": 30 }
+      ]
+    },
+    {
+      "title": "BibleFlow",
+      "complexity": 9450,
+      "stack": { "Swift": 85, "Git": 10, "CI/CD": 5 },
+      "domain": [
+        { "name": "Mobile", "weight": 80 },
+        { "name": "Web", "weight": 20 }
+      ]
+    },
+    {
+      "title": "BTCpay Server",
+      "complexity": 6000,
+      "stack": { "Linux": 35, "Docker": 35, "Nginx": 15, "Git": 10, "CI/CD": 5 },
+      "domain": [
+        { "name": "DevOps", "weight": 30 },
+        { "name": "Security", "weight": 25 },
+        { "name": "Systems", "weight": 25 },
+        { "name": "Networking", "weight": 20 }
+      ]
+    },
+    {
+      "title": "HomeLab Personnel",
+      "complexity": 6500,
+      "stack": { "Docker": 35, "Linux": 30, "VM": 20, "CI/CD": 10, "Git": 5 },
+      "domain": [
+        { "name": "Systems", "weight": 40 },
+        { "name": "DevOps", "weight": 35 },
+        { "name": "Security", "weight": 15 },
+        { "name": "Networking", "weight": 10 }
+      ]
+    },
+    {
+      "title": "Bot de Trading Automatisé",
+      "complexity": 7000,
+      "stack": { "Python": 50, "API": 15, "SQL": 10, "Docker": 10, "Linux": 10, "Git": 5 },
+      "domain": [
+        { "name": "IA & Data", "weight": 60 },
+        { "name": "DevOps", "weight": 20 },
+        { "name": "Systems", "weight": 10 },
+        { "name": "Web", "weight": 10 }
+      ]
+    },
+    {
+      "title": "Portfolio Website",
+      "complexity": 9450,
+      "stack": { "JavaScript": 30, "HTML": 25, "CSS": 25, "Cloud": 10, "CI/CD": 5, "Git": 5 },
+      "domain": [
+        { "name": "Web", "weight": 80 },
+        { "name": "Cloud", "weight": 10 },
+        { "name": "DevOps", "weight": 10 }
+      ]
+    },
+    {
+      "title": "Cloud-1",
+      "complexity": 9450,
+      "stack": { "Docker": 35, "Nginx": 15, "SQL": 15, "Cloud": 15, "Linux": 10, "Git": 10 },
+      "domain": [
+        { "name": "DevOps", "weight": 50 },
+        { "name": "Cloud", "weight": 30 },
+        { "name": "Web", "weight": 10 },
+        { "name": "Security", "weight": 10 }
+      ]
+    },
+    {
+      "title": "Libft",
+      "complexity": 462,
+      "stack": { "C": 85, "Git": 10, "Linux": 5 },
+      "domain": [
+        { "name": "Software", "weight": 100 }
+      ]
+    },
+    {
+      "title": "Get Next Line",
+      "complexity": 882,
+      "stack": { "C": 85, "Git": 10, "Linux": 5 },
+      "domain": [
+        { "name": "Software", "weight": 100 }
+      ]
+    },
+    {
+      "title": "Ft_printf",
+      "complexity": 882,
+      "stack": { "C": 85, "Git": 10, "Linux": 5 },
+      "domain": [
+        { "name": "Software", "weight": 100 }
+      ]
+    },
+    {
+      "title": "Born2BeRoot",
+      "complexity": 546,
+      "stack": { "Linux": 60, "VM": 25, "Bash": 10, "Git": 5 },
+      "domain": [
+        { "name": "Systems", "weight": 50 },
+        { "name": "Security", "weight": 20 },
+        { "name": "DevOps", "weight": 20 },
+        { "name": "Networking", "weight": 10 }
+      ]
+    },
+    {
+      "title": "Push_Swap",
+      "complexity": 1855,
+      "stack": { "C": 90, "Git": 5, "Linux": 5 },
+      "domain": [
+        { "name": "Software", "weight": 100 }
+      ]
+    },
+    {
+      "title": "Minitalk",
+      "complexity": 1134,
+      "stack": { "C": 85, "Linux": 10, "Git": 5 },
+      "domain": [
+        { "name": "Software", "weight": 60 },
+        { "name": "Systems", "weight": 40 }
+      ]
+    },
+    {
+      "title": "So_Long",
+      "complexity": 966,
+      "stack": { "C": 85, "Git": 10, "Linux": 5 },
+      "domain": [
+        { "name": "Software", "weight": 100 }
+      ]
+    },
+    {
+      "title": "Philosophers",
+      "complexity": 3360,
+      "stack": { "C": 85, "Linux": 10, "Git": 5 },
+      "domain": [
+        { "name": "Software", "weight": 100 }
+      ]
+    },
+    {
+      "title": "Minishell",
+      "complexity": 2814,
+      "stack": { "C": 70, "Linux": 15, "Bash": 10, "Git": 5 },
+      "domain": [
+        { "name": "Software", "weight": 60 },
+        { "name": "Systems", "weight": 40 }
+      ]
+    },
+    {
+      "title": "Cub3D",
+      "complexity": 5775,
+      "stack": { "C": 85, "Git": 10, "Linux": 5 },
+      "domain": [
+        { "name": "Software", "weight": 100 }
+      ]
+    },
+    {
+      "title": "NetPractice",
+      "complexity": 3150,
+      "stack": { "Linux": 70, "Git": 15, "Bash": 15 },
+      "domain": [
+        { "name": "Networking", "weight": 100 }
+      ]
+    },
+    {
+      "title": "Piscine C++ (part.1)",
+      "complexity": 9660,
+      "stack": { "C++": 85, "Git": 10, "Linux": 5 },
+      "domain": [
+        { "name": "Software", "weight": 100 }
+      ]
+    },
+    {
+      "title": "Piscine C++ (part.2)",
+      "complexity": 10038,
+      "stack": { "C++": 85, "Git": 10, "Linux": 5 },
+      "domain": [
+        { "name": "Software", "weight": 100 }
+      ]
+    },
+    {
+      "title": "Inception",
+      "complexity": 10038,
+      "stack": { "Docker": 35, "Nginx": 15, "SQL": 15, "VM": 10, "Linux": 10, "Git": 10, "CI/CD": 5 },
+      "domain": [
+        { "name": "DevOps", "weight": 70 },
+        { "name": "Systems", "weight": 20 },
+        { "name": "Security", "weight": 10 }
+      ]
+    },
+    {
+      "title": "Webserv",
+      "complexity": 21630,
+      "stack": { "C++": 75, "Linux": 15, "Git": 10 },
+      "domain": [
+        { "name": "Web", "weight": 40 },
+        { "name": "Software", "weight": 60 }
+      ]
+    },
+    {
+      "title": "Ft_Transcendence",
+      "complexity": 24360,
+      "stack": { "JavaScript": 25, "Python": 15, "HTML": 5, "CSS": 5, "SQL": 15, "Docker": 10, "Nginx": 10, "CI/CD": 10, "Git": 5 },
+      "domain": [
+        { "name": "Web", "weight": 80 },
+        { "name": "Security", "weight": 10 },
+        { "name": "DevOps", "weight": 10 }
+      ]
+    },
+    {
+      "title": "Modules Shell",
+      "complexity": 200,
+      "stack": { "Bash": 70, "Linux": 20, "Git": 10 },
+      "domain": [
+        { "name": "Systems", "weight": 90 },
+        { "name": "Software", "weight": 10 }
+      ]
+    },
+    {
+      "title": "Modules C",
+      "complexity": 800,
+      "stack": { "C": 80, "Git": 10, "Linux": 10 },
+      "domain": [
+        { "name": "Software", "weight": 100 }
+      ]
+    },
+    {
+      "title": "Rushes",
+      "complexity": 450,
+      "stack": { "C": 60, "Linux": 20, "Git": 20 },
+      "domain": [
+        { "name": "Software", "weight": 100 }
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Azure Security, Compliance, and Identity Fundamentals",
+      "complexity": 4500,
+      "stack": { "Cloud": 100 },
+      "domain": [
+        { "name": "Security", "weight": 70 },
+        { "name": "Cloud", "weight": 30 }
+      ]
+    },
+    {
+      "title": "Azure Data Fundamentals",
+      "complexity": 4000,
+      "stack": { "SQL": 40, "Cloud": 60 },
+      "domain": [
+        { "name": "IA & Data", "weight": 80 },
+        { "name": "Cloud", "weight": 20 }
+      ]
+    },
+    {
+      "title": "Azure Cloud Fundamentals",
+      "complexity": 3000,
+      "stack": { "Cloud": 100 },
+      "domain": [
+        { "name": "Cloud", "weight": 100 }
+      ]
+    }
+  ],
+  "experiences": [
+    {
+      "title": "Ingénieur IT junior – CVCI",
+      "complexity": 20000,
+      "stack": { "Cloud": 70, "PowerShell": 10, "VM": 15, "Bash": 5 },
+      "domain": [
+        { "name": "Cloud", "weight": 35 },
+        { "name": "Networking", "weight": 20 },
+        { "name": "Systems", "weight": 20 },
+        { "name": "Security", "weight": 20 },
+        { "name": "DevOps", "weight": 5 }
+      ]
+    }
+  ]
+}

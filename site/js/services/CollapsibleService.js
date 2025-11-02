@@ -50,8 +50,8 @@ class CollapsibleService {
 			logo: cert.logo,
 			company: cert.company,
 			date: cert.date,
-			description: cert.description,
-			details: null,
+			description: null,
+			details: cert.description,
 			skills: cert.skills,
 		};
 	}
@@ -62,8 +62,9 @@ class CollapsibleService {
 			logo: exp.logo,
 			company: exp.company,
 			date: exp.duration,
-			description: exp.description,
-			details: null,
+			description: null,
+			details: exp.description,
+			tasks: exp.tasks || [],
 			skills: exp.skills,
 		};
 	}
@@ -88,7 +89,7 @@ class CollapsibleService {
 	}
 
 	createCategoryTitle(category) {
-		const titleElement = document.createElement("h3");
+		const titleElement = document.createElement("h4");
 		titleElement.className = "collapsible-category-title";
 		titleElement.textContent = category;
 		return titleElement;
@@ -100,6 +101,7 @@ class CollapsibleService {
 				project: "Project",
 				details: "Details",
 				skills: "Acquired Skills",
+				tasks: "Tasks",
 				error_loading: "Unable to load data.",
 				experiences: "Experiences",
 				certifications: "Certifications",
@@ -108,6 +110,7 @@ class CollapsibleService {
 			fr: {
 				project: "Projet",
 				details: "Détails",
+				tasks: "Tâches",
 				skills: "Compétences acquises",
 				error_loading: "Impossible de charger les données.",
 				experiences: "Expériences",
@@ -117,6 +120,7 @@ class CollapsibleService {
 			de: {
 				project: "Projekt",
 				details: "Details",
+				tasks: "Aufgaben",
 				skills: "Erworbene Fähigkeiten",
 				error_loading: "Daten konnten nicht geladen werden.",
 				experiences: "Erfahrungen",
@@ -126,6 +130,7 @@ class CollapsibleService {
 			es: {
 				project: "Proyecto",
 				details: "Detalles",
+				tasks: "Tareas",
 				skills: "Habilidades adquiridas",
 				error_loading: "No se pueden cargar los datos.",
 				experiences: "Experiencias",
@@ -141,7 +146,7 @@ class CollapsibleService {
 	createCollapsibleElement(item) {
 		const {
 			title, logo, date, description,
-			details, skills, repo, company, banner
+			details, tasks, skills, repo, company, banner
 		} = item;
 
 		const wrapper = document.createElement("div");
@@ -151,8 +156,9 @@ class CollapsibleService {
 		const bannerHTML = banner ? `<img src="${banner}" alt="Banner" class="banner-image" />` : "";
 		const companyHTML = company ? `<h4 class="company">${company}</h4>` : "";
 		const dateHTML = date ? `<p class="date" style="color: var(--secondary);">${date}</p>` : "";
-		const descHTML = description ? `<h4>${this.getTranslation("project")}</h4><p>${description}</p>` : "";
-		const detailsHTML = details ? `<h4>${this.getTranslation("details")}</h4><p>${details}</p>` : "";
+		const descHTML = description ? `<h4>${this.getTranslation("project")}</h4><p style="font-size:0.80em !important;">${description}</p>` : "";
+		const detailsHTML = details ? `<h4>${this.getTranslation("details")}</h4><p style="font-size:0.80em !important;">${details}</p>` : "";
+		const tasksHTML = item.tasks ? `<h4>${this.getTranslation("tasks")}</h4><ul>${item.tasks.map(task => `<li style="font-size:0.80em;">${task}</li>`).join("")}</ul>` : "";
 		const skillsHTML = skills ? `<h4>${this.getTranslation("skills")}</h4><div class="skills">${skills.map(s => `<span class="skill">${s}</span>`).join("")}</div>` : "";
 		const linkHTML = repo ? `<a href="${repo}" target="_blank" class="repo-link">${this.getTranslation("link")}</a>` : "";
 
@@ -165,6 +171,7 @@ class CollapsibleService {
 					${bannerHTML}
 					${descHTML}
 					${detailsHTML}
+					${tasksHTML}
 					${skillsHTML}
 					${linkHTML}
 				</div>

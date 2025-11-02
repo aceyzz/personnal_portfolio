@@ -1,0 +1,8 @@
+{
+	"stats_note": [
+		"XP reflects the cumulative impact of each project.",
+		"For each entry, the project is distributed across the stack according to its percentages.",
+		"Scores are then normalized based on the 95th percentile to remain comparable.",
+		"Bronze: 0–200 XP · Silver: 200–500 XP · Gold: 500–900 XP · Platinum: 900–1500 XP · Diamond: 1500+ XP."
+	]
+}
